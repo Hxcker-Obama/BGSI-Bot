@@ -2,6 +2,7 @@ const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
 const config = require('./config.json');
+const keepAlive = require('./webserver.js');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 const token = process.env['TOKEN']
@@ -63,6 +64,8 @@ client.on(Events.InteractionCreate, async interaction => {
         });
     }
 });
+
+keepAlive();
 
 // Login
 client.login(token);
