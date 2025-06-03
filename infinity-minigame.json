@@ -1,0 +1,30 @@
+{
+    "Unique": {
+      "Martian Kitty": 50,
+      "Mining Bat": 50
+    },
+    "Common": {
+      "Game Doggy": 25.11415525114155,
+      "Gamer Boi": 18.2648401826484,
+      "Mining Doggy": 27.397260273972602,
+      "Robo Kitty": 29.22374429223744
+    },
+    "Epic": {
+      "Ore Golem": 50,
+      "Cyber Wolf": 50
+    },
+    "Secret": {
+      "Mech Robot": 100
+    },
+    "Legendary": {
+      "Space Invader": 0.3655304761034451,
+      "Crystal Unicorn": 91.38261902586127,
+      "Cyborg Phoenix": 7.310609522068902,
+      "Bionic Shard": 0.02741478570775838,
+      "Stone Gargoyle": 0.9138261902586128
+    },
+    "Rare": {
+      "Cave Mole": 58.333333333333336,
+      "Queen of Hearts": 41.66666666666667
+    }
+  }
