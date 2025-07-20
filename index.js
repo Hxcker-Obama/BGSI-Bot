@@ -14,8 +14,6 @@ app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
 
-const config = require('./config.json');
-
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 // Command collection
