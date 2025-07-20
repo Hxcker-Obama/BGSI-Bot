@@ -3,7 +3,7 @@ const Pets = require("../pets.json");
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('pet')
+        .setName('getpet')
         .setDescription('Get information about a specific pet')
         .addStringOption(option =>
             option.setName('name')
