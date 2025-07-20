@@ -1,30 +1,37 @@
 {
-    "Unique": {
-      "Martian Kitty": 50,
-      "Mining Bat": 50
-    },
-    "Common": {
-      "Game Doggy": 25.11415525114155,
-      "Gamer Boi": 18.2648401826484,
-      "Mining Doggy": 27.397260273972602,
-      "Robo Kitty": 29.22374429223744
-    },
-    "Epic": {
-      "Ore Golem": 50,
-      "Cyber Wolf": 50
-    },
-    "Secret": {
-      "Mech Robot": 100
-    },
-    "Legendary": {
-      "Space Invader": 0.3655304761034451,
-      "Crystal Unicorn": 91.38261902586127,
-      "Cyborg Phoenix": 7.310609522068902,
-      "Bionic Shard": 0.02741478570775838,
-      "Stone Gargoyle": 0.9138261902586128
-    },
-    "Rare": {
-      "Cave Mole": 58.333333333333336,
-      "Queen of Hearts": 41.66666666666667
-    }
+  "Unique": {
+    "Martian Kitty": 50,
+    "Mining Bat": 50
+  },
+  "Common": {
+    "Robo Kitty": 22.614840989399294,
+    "Mining Doggy": 21.20141342756184,
+    "Game Doggy": 19.434628975265017,
+    "Gamer Boi": 14.13427561837456,
+    "Neon Doggy": 22.614840989399294
+  },
+  "Epic": {
+    "Disco Ball": 33.33333333333333,
+    "Ore Golem": 33.33333333333333,
+    "Cyber Wolf": 33.33333333333333
+  },
+  "Secret": {
+    "Mech Robot": 65.21739130434783,
+    "Hyperwave Kitty": 34.78260869565217
+  },
+  "Legendary": {
+    "Stone Gargoyle": 0.8350451759440186,
+    "Neon Wire Eye": 0.2505135527832056,
+    "Space Invader": 0.33401807037760745,
+    "Crystal Unicorn": 83.50451759440185,
+    "Neon Wyvern": 8.350451759440187,
+    "Cyborg Phoenix": 6.680361407552149,
+    "Bionic Shard": 0.025051355278320555,
+    "Equalizer": 0.020041084222656446
+  },
+  "Rare": {
+    "Cave Mole": 16.666666666666664,
+    "Hologram Dragon": 71.42857142857143,
+    "Queen of Hearts": 11.904761904761903
   }
+}

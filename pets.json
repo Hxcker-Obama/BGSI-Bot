@@ -1,10 +1,9 @@
 {
   "Everblaze": {
-    "LayoutOrder": 245,
     "Stats": {
       "Bubbles": 4200,
-      "Seashells": 2000,
-      "Gems": 90
+      "Gems": 90,
+      "Coins": 2000
     },
     "Rarity": "Secret",
     "Images": {
@@ -13,12 +12,13 @@
       "MythicShiny": "rbxassetid://87547488111933",
       "Shiny": "rbxassetid://130633057237060"
     },
-    "Chance": 4e-7,
     "Limited": true,
+    "Chance": 4e-7,
+    "LayoutOrder": 245,
     "Tag": "Secret Bounty"
   },
   "Easter Egg": {
-    "LayoutOrder": 120,
+    "Egg": "Throwback Egg",
     "Stats": {
       "Bubbles": 100,
       "Gems": 2.2,
@@ -29,12 +29,12 @@
       "Normal": "rbxassetid://97739272143723",
       "Shiny": "rbxassetid://100300586984302"
     },
-    "Chance": 30,
     "Limited": true,
-    "Egg": "Throwback Egg"
+    "Chance": 30,
+    "LayoutOrder": 120
   },
   "Crimson Bloodmoon": {
-    "LayoutOrder": 180,
+    "Egg": "Underworld Egg",
     "Stats": {
       "Bubbles": 2000,
       "Gems": 40,
@@ -47,13 +47,13 @@
       "MythicShiny": "rbxassetid://106742025589586",
       "Shiny": "rbxassetid://82911153902304"
     },
-    "Chance": 0.00012,
-    "Egg": "Underworld Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.00012,
+    "LayoutOrder": 180
   },
   "Space Mouse": {
-    "LayoutOrder": 35,
+    "Egg": "Lunar Egg",
     "Stats": {
       "Bubbles": 16,
       "Coins": 14
@@ -64,10 +64,38 @@
       "Shiny": "rbxassetid://112742089216721"
     },
     "Chance": 60,
-    "Egg": "Lunar Egg"
+    "LayoutOrder": 35
+  },
+  "BGS Box": {
+    "Stats": {
+      "Bubbles": 4000,
+      "Gems": 80,
+      "Coins": 4000
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://83649473361659",
+      "Shiny": "rbxassetid://135960705773534"
+    },
+    "Chance": 100,
+    "LayoutOrder": 274
+  },
+  "Bruhette": {
+    "Egg": "Bruh Egg",
+    "Stats": {
+      "Bubbles": 220,
+      "Coins": 25
+    },
+    "Rarity": "Epic",
+    "Images": {
+      "Normal": "rbxassetid://132150523102726",
+      "Shiny": "rbxassetid://108865849289266"
+    },
+    "Limited": true,
+    "Chance": 3,
+    "LayoutOrder": 309
   },
   "Kitsune": {
-    "LayoutOrder": 94,
     "Stats": {
       "Bubbles": 1300,
       "Gems": 22,
@@ -79,10 +107,11 @@
       "Shiny": "rbxassetid://81467799917609"
     },
     "Chance": 100,
+    "LayoutOrder": 94,
     "Tag": "Reward Pet"
   },
   "Bunny": {
-    "LayoutOrder": 3,
+    "Egg": "Common Egg",
     "Stats": {
       "Bubbles": 2,
       "Coins": 1.2
@@ -93,10 +122,9 @@
       "Shiny": "rbxassetid://94898052528332"
     },
     "Chance": 25,
-    "Egg": "Common Egg"
+    "LayoutOrder": 3
   },
   "Evil Shock": {
-    "LayoutOrder": 89,
     "Stats": {
       "Bubbles": 975,
       "Gems": 15.5,
@@ -108,10 +136,11 @@
       "Shiny": "rbxassetid://82993807418706"
     },
     "Chance": 100,
+    "LayoutOrder": 89,
     "Tag": "Milestone Pet"
   },
   "Sweet Treat": {
-    "LayoutOrder": 109,
+    "Egg": "Pastel Egg",
     "Stats": {
       "Bubbles": 620,
       "Gems": 12,
@@ -124,13 +153,13 @@
       "MythicShiny": "rbxassetid://125017252768987",
       "Shiny": "rbxassetid://84518745196741"
     },
-    "Chance": 0.004,
-    "Egg": "Pastel Egg",
     "Limited": true,
-    "Tier": 2
+    "Tier": 2,
+    "Chance": 0.004,
+    "LayoutOrder": 109
   },
   "Bow Bunny": {
-    "LayoutOrder": 119,
+    "Egg": "Throwback Egg",
     "Stats": {
       "Bubbles": 55,
       "Gems": 1.5,
@@ -141,12 +170,11 @@
       "Normal": "rbxassetid://101840367549334",
       "Shiny": "rbxassetid://81878017289027"
     },
-    "Chance": 64,
     "Limited": true,
-    "Egg": "Throwback Egg"
+    "Chance": 64,
+    "LayoutOrder": 119
   },
   "Toilet Doggy": {
-    "LayoutOrder": 193,
     "Stats": {
       "Bubbles": 925,
       "Gems": 16,
@@ -159,12 +187,28 @@
       "MythicShiny": "rbxassetid://88821017578387",
       "Shiny": "rbxassetid://95615548115868"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 193,
     "Tag": "Exclusive Pet"
   },
+  "Glorp Bruh": {
+    "Stats": {
+      "Bubbles": 3250,
+      "Gems": 65,
+      "Coins": 3100
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://103738237217377",
+      "Shiny": "rbxassetid://119985938889479"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 316
+  },
   "Deer": {
-    "LayoutOrder": 12,
+    "Egg": "Iceshard Egg",
     "Stats": {
       "Bubbles": 5,
       "Coins": 3.5
@@ -175,10 +219,10 @@
       "Shiny": "rbxassetid://74893204557931"
     },
     "Chance": 25,
-    "Egg": "Iceshard Egg"
+    "LayoutOrder": 12
   },
   "Demon Doggy": {
-    "LayoutOrder": 54,
+    "Egg": "Nightmare Egg",
     "Stats": {
       "Bubbles": 35,
       "Coins": 32
@@ -189,10 +233,24 @@
       "Shiny": "rbxassetid://127440148513684"
     },
     "Chance": 60,
-    "Egg": "Nightmare Egg"
+    "LayoutOrder": 54
+  },
+  "Sparkler Man": {
+    "Egg": "July4th Egg",
+    "Stats": {
+      "Bubbles": 220,
+      "Coins": 25
+    },
+    "Rarity": "Epic",
+    "Images": {
+      "Normal": "rbxassetid://87935170100414",
+      "Shiny": "rbxassetid://97333760530586"
+    },
+    "Limited": true,
+    "Chance": 3,
+    "LayoutOrder": 319
   },
   "Dragon Plushie": {
-    "LayoutOrder": 170,
     "Stats": {
       "Bubbles": 2000,
       "Gems": 40,
@@ -206,26 +264,27 @@
       "Shiny": "rbxassetid://92576218287248"
     },
     "Chance": 100,
+    "LayoutOrder": 170,
     "Tag": "Game Prize"
   },
   "Runic Master": {
-    "LayoutOrder": 246,
     "Stats": {
       "Bubbles": 1000,
-      "Seashells": 35,
-      "Gems": 20
+      "Gems": 20,
+      "Coins": 35
     },
     "Rarity": "Legendary",
     "Images": {
       "Normal": "rbxassetid://127053290227721",
       "Shiny": "rbxassetid://129561123780597"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 246,
     "Tag": "Season 3"
   },
   "Demon": {
-    "LayoutOrder": 27,
+    "Egg": "Magma Egg",
     "Stats": {
       "Bubbles": 25,
       "Coins": 20
@@ -236,10 +295,10 @@
       "Shiny": "rbxassetid://96157978621758"
     },
     "Chance": 2.25,
-    "Egg": "Magma Egg"
+    "LayoutOrder": 27
   },
   "Galaxy Dice": {
-    "LayoutOrder": 202,
+    "Egg": "Chance Egg",
     "Stats": {
       "Bubbles": 45,
       "Tickets": 22
@@ -250,10 +309,10 @@
       "Shiny": "rbxassetid://101083588638682"
     },
     "Chance": 90,
-    "Egg": "Chance Egg"
+    "LayoutOrder": 202
   },
   "Green Angel": {
-    "LayoutOrder": 64,
+    "Egg": "Rainbow Egg",
     "Stats": {
       "Bubbles": 225,
       "Gems": 2,
@@ -265,26 +324,26 @@
       "Shiny": "rbxassetid://95455922946139"
     },
     "Chance": 2.25,
-    "Egg": "Rainbow Egg"
+    "LayoutOrder": 64
   },
   "Rune Stone": {
-    "LayoutOrder": 239,
+    "Egg": "Season 3 Egg",
     "Stats": {
       "Bubbles": 40,
-      "Seashells": 4
+      "Coins": 4
     },
     "Rarity": "Rare",
     "Images": {
       "Normal": "rbxassetid://128343838730500",
       "Shiny": "rbxassetid://137307772861297"
     },
-    "Chance": 90,
-    "Egg": "Season 3 Egg",
     "Limited": true,
+    "Chance": 90,
+    "LayoutOrder": 239,
     "Tag": "Season 3"
   },
   "Hell Dragon": {
-    "LayoutOrder": 49,
+    "Egg": "Hell Egg",
     "Stats": {
       "Bubbles": 45,
       "Coins": 45
@@ -295,10 +354,10 @@
       "Shiny": "rbxassetid://126841657900353"
     },
     "Chance": 29.9,
-    "Egg": "Hell Egg"
+    "LayoutOrder": 49
   },
   "Flying Pig": {
-    "LayoutOrder": 34,
+    "Egg": "Crystal Egg",
     "Stats": {
       "Bubbles": 285,
       "Gems": 1.7,
@@ -311,12 +370,11 @@
       "MythicShiny": "rbxassetid://132959504112054",
       "Shiny": "rbxassetid://108822579247381"
     },
+    "Tier": 1,
     "Chance": 0.1,
-    "Egg": "Crystal Egg",
-    "Tier": 1
+    "LayoutOrder": 34
   },
   "Beta TV": {
-    "LayoutOrder": 102,
     "Stats": {
       "Bubbles": 110,
       "Gems": 1.35,
@@ -327,12 +385,13 @@
       "Normal": "rbxassetid://131408473856024",
       "Shiny": "rbxassetid://79852109630604"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 102,
     "Tag": "Exclusive Pet"
   },
   "Neon Doggy": {
-    "LayoutOrder": 195,
+    "Egg": "Neon Egg",
     "Stats": {
       "Bubbles": 70,
       "Tickets": 80
@@ -343,14 +402,14 @@
       "Shiny": "rbxassetid://107641406627386"
     },
     "Chance": 64,
-    "Egg": "Neon Egg"
+    "LayoutOrder": 195
   },
   "Popsicle Trio": {
-    "LayoutOrder": 225,
+    "Egg": "Icecream Egg",
     "Stats": {
       "Bubbles": 720,
-      "Seashells": 50,
-      "Gems": 18
+      "Gems": 18,
+      "Coins": 50
     },
     "Rarity": "Legendary",
     "Images": {
@@ -359,17 +418,55 @@
       "MythicShiny": "rbxassetid://74857872085191",
       "Shiny": "rbxassetid://121181274468883"
     },
-    "Chance": 0.1,
-    "Egg": "Icecream Egg",
     "Limited": true,
-    "Tier": 1
+    "Tier": 1,
+    "Chance": 0.1,
+    "LayoutOrder": 225
+  },
+  "Evil Bee": {
+    "Egg": "Bee Egg",
+    "Stats": {
+      "Bubbles": 3000,
+      "Gems": 38,
+      "Coins": 2250
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://127470310270489",
+      "Mythic": "rbxassetid://105614758828889",
+      "MythicShiny": "rbxassetid://103799322569178",
+      "Shiny": "rbxassetid://70434609468961"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0004,
+    "LayoutOrder": 382
+  },
+  "Guardian of Light": {
+    "Egg": "Light Egg",
+    "Stats": {
+      "Bubbles": 2900,
+      "Gems": 55,
+      "Coins": 2800
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://121033282039166",
+      "Mythic": "rbxassetid://108147619462309",
+      "MythicShiny": "rbxassetid://78615749592614",
+      "Shiny": "rbxassetid://124553395976526"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0001,
+    "LayoutOrder": 280
   },
   "Electric Basilisk": {
-    "LayoutOrder": 261,
+    "Egg": "Fossil Egg",
     "Stats": {
       "Bubbles": 4750,
-      "Seashells": 2500,
-      "Gems": 100
+      "Gems": 100,
+      "Coins": 2500
     },
     "Rarity": "Secret",
     "Images": {
@@ -378,13 +475,13 @@
       "MythicShiny": "rbxassetid://71077256129672",
       "Shiny": "rbxassetid://136569988991636"
     },
-    "Chance": 1e-7,
-    "Egg": "Fossil Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 1e-7,
+    "LayoutOrder": 261
   },
   "Ice Deer": {
-    "LayoutOrder": 15,
+    "Egg": "Iceshard Egg",
     "Stats": {
       "Bubbles": 11,
       "Coins": 7
@@ -395,10 +492,10 @@
       "Shiny": "rbxassetid://90402327646631"
     },
     "Chance": 8,
-    "Egg": "Iceshard Egg"
+    "LayoutOrder": 15
   },
   "Chubby Bunny": {
-    "LayoutOrder": 107,
+    "Egg": "Pastel Egg",
     "Stats": {
       "Bubbles": 100,
       "Coins": 115
@@ -408,12 +505,31 @@
       "Normal": "rbxassetid://105432306560546",
       "Shiny": "rbxassetid://110449606817749"
     },
-    "Chance": 7,
     "Limited": true,
-    "Egg": "Pastel Egg"
+    "Chance": 7,
+    "LayoutOrder": 107
+  },
+  "Celestial Bruh": {
+    "Egg": "Bruh Egg",
+    "Stats": {
+      "Bubbles": 2600,
+      "Gems": 38,
+      "Coins": 1850
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://78332010265803",
+      "Mythic": "rbxassetid://120183176414521",
+      "MythicShiny": "rbxassetid://89659528495149",
+      "Shiny": "rbxassetid://94953525849525"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0002,
+    "LayoutOrder": 311
   },
   "Space Bull": {
-    "LayoutOrder": 36,
+    "Egg": "Lunar Egg",
     "Stats": {
       "Bubbles": 30,
       "Coins": 20
@@ -424,10 +540,10 @@
       "Shiny": "rbxassetid://86759888574124"
     },
     "Chance": 29.9,
-    "Egg": "Lunar Egg"
+    "LayoutOrder": 36
   },
   "DOOF": {
-    "LayoutOrder": 74,
+    "Egg": "Silly Egg",
     "Stats": {
       "Bubbles": 1350,
       "Gems": 18,
@@ -443,11 +559,26 @@
     "Limited": true,
     "Tier": 2,
     "Chance": 0.01,
-    "Egg": "Silly Egg",
+    "LayoutOrder": 74,
     "Tag": "Silly"
   },
+  "Void Crystal Doggy": {
+    "Egg": "Voidcrystal Egg",
+    "Stats": {
+      "Bubbles": 25,
+      "Coins": 6
+    },
+    "Rarity": "Common",
+    "Images": {
+      "Normal": "rbxassetid://132093561043294",
+      "Shiny": "rbxassetid://131888773898664"
+    },
+    "Limited": true,
+    "Chance": 64,
+    "LayoutOrder": 290
+  },
   "Magma Deer": {
-    "LayoutOrder": 24,
+    "Egg": "Magma Egg",
     "Stats": {
       "Bubbles": 12,
       "Coins": 8
@@ -458,10 +589,10 @@
       "Shiny": "rbxassetid://72419653767996"
     },
     "Chance": 30.5,
-    "Egg": "Magma Egg"
+    "LayoutOrder": 24
   },
   "Hell Piggy": {
-    "LayoutOrder": 48,
+    "Egg": "Hell Egg",
     "Stats": {
       "Bubbles": 24,
       "Coins": 20
@@ -472,10 +603,9 @@
       "Shiny": "rbxassetid://92700191260519"
     },
     "Chance": 60,
-    "Egg": "Hell Egg"
+    "LayoutOrder": 48
   },
   "Chocolate Bunny": {
-    "LayoutOrder": 134,
     "Stats": {
       "Bubbles": 1450,
       "Gems": 25,
@@ -488,12 +618,13 @@
       "MythicShiny": "rbxassetid://135944243354588",
       "Shiny": "rbxassetid://91443601878887"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 134,
     "Tag": "2025 Egg Hunt"
   },
   "Doggy": {
-    "LayoutOrder": 1,
+    "Egg": "Common Egg",
     "Stats": {
       "Bubbles": 1,
       "Coins": 1.1
@@ -504,14 +635,14 @@
       "Shiny": "rbxassetid://78385524120788"
     },
     "Chance": 40,
-    "Egg": "Common Egg"
+    "LayoutOrder": 1
   },
   "Mangorium": {
-    "LayoutOrder": 236,
+    "Egg": "Fruit Egg",
     "Stats": {
       "Bubbles": 1850,
-      "Seashells": 300,
-      "Gems": 30
+      "Gems": 30,
+      "Coins": 300
     },
     "Rarity": "Legendary",
     "Images": {
@@ -520,13 +651,12 @@
       "MythicShiny": "rbxassetid://118319499579047",
       "Shiny": "rbxassetid://101884514077431"
     },
-    "Chance": 0.002,
-    "Egg": "Fruit Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.002,
+    "LayoutOrder": 236
   },
   "Solar Deity": {
-    "LayoutOrder": 82,
     "Stats": {
       "Bubbles": 1050,
       "Gems": 18,
@@ -537,12 +667,13 @@
       "Normal": "rbxassetid://134628402584080",
       "Shiny": "rbxassetid://119817581695133"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 82,
     "Tag": "Season 1"
   },
   "Easter Basket": {
-    "LayoutOrder": 118,
+    "Egg": "Bunny Egg",
     "Stats": {
       "Bubbles": 2900,
       "Gems": 60,
@@ -555,13 +686,13 @@
       "MythicShiny": "rbxassetid://88763393448729",
       "Shiny": "rbxassetid://91266745275312"
     },
-    "Chance": 0.000001,
-    "Egg": "Bunny Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.000001,
+    "LayoutOrder": 118
   },
   "Mining Doggy": {
-    "LayoutOrder": 148,
+    "Egg": "Mining Egg",
     "Stats": {
       "Bubbles": 24,
       "Tickets": 20
@@ -572,10 +703,9 @@
       "Shiny": "rbxassetid://79474133380060"
     },
     "Chance": 60,
-    "Egg": "Mining Egg"
+    "LayoutOrder": 148
   },
   "King Soul": {
-    "LayoutOrder": 91,
     "Stats": {
       "Bubbles": 2225,
       "Gems": 45,
@@ -587,10 +717,11 @@
       "Shiny": "rbxassetid://118925496119322"
     },
     "Chance": 100,
+    "LayoutOrder": 91,
     "Tag": "Milestone Pet"
   },
   "Hell Crawler": {
-    "LayoutOrder": 50,
+    "Egg": "Hell Egg",
     "Stats": {
       "Bubbles": 75,
       "Coins": 75
@@ -601,10 +732,10 @@
       "Shiny": "rbxassetid://97739309087713"
     },
     "Chance": 7,
-    "Egg": "Hell Egg"
+    "LayoutOrder": 50
   },
   "Seraph": {
-    "LayoutOrder": 80,
+    "Egg": "Season 1 Egg",
     "Stats": {
       "Bubbles": 1600,
       "Gems": 22,
@@ -620,11 +751,10 @@
     "Limited": true,
     "Tier": 2,
     "Chance": 0.01,
-    "Egg": "Season 1 Egg",
+    "LayoutOrder": 80,
     "Tag": "Season 1"
   },
   "Infernus": {
-    "LayoutOrder": 137,
     "Stats": {
       "Bubbles": 130,
       "Gems": 2,
@@ -635,12 +765,27 @@
       "Normal": "rbxassetid://84021466522802",
       "Shiny": "rbxassetid://139125490541605"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 137,
     "Tag": "Exclusive Pet"
   },
+  "Spitty": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 100,
+      "Coins": 15
+    },
+    "Rarity": "Rare",
+    "Images": {
+      "Normal": "rbxassetid://93305106012855",
+      "Shiny": "rbxassetid://126274635497387"
+    },
+    "Limited": true,
+    "Chance": 30,
+    "LayoutOrder": 361
+  },
   "Electra Hydra": {
-    "LayoutOrder": 104,
     "Stats": {
       "Bubbles": 130,
       "Gems": 2,
@@ -651,12 +796,28 @@
       "Normal": "rbxassetid://135131712275131",
       "Shiny": "rbxassetid://138488373164398"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 104,
     "Tag": "Exclusive Pet"
   },
+  "Patriotic Doggy": {
+    "Egg": "July4th Egg",
+    "Stats": {
+      "Bubbles": 25,
+      "Coins": 6
+    },
+    "Rarity": "Common",
+    "Images": {
+      "Normal": "rbxassetid://134410194887423",
+      "Shiny": "rbxassetid://80554862534344"
+    },
+    "Limited": true,
+    "Chance": 64,
+    "LayoutOrder": 317
+  },
   "Fire Guardian": {
-    "LayoutOrder": 216,
+    "Egg": "Series 2 Egg",
     "Stats": {
       "Bubbles": 2700,
       "Gems": 65,
@@ -672,30 +833,46 @@
     "Limited": true,
     "Tier": 2,
     "Chance": 0.005,
-    "Egg": "Series 2 Egg",
+    "LayoutOrder": 216,
     "Tag": "Series 2"
   },
+  "King Slime": {
+    "Stats": {
+      "Bubbles": 4600,
+      "Gems": 100,
+      "Coins": 4000
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://126998603810585",
+      "Mythic": "rbxassetid://92599501613578",
+      "MythicShiny": "rbxassetid://131806652480856",
+      "Shiny": "rbxassetid://129458974326143"
+    },
+    "Limited": true,
+    "Chance": 0.000002,
+    "LayoutOrder": 298
+  },
   "Neapolitan Stack": {
-    "LayoutOrder": 224,
+    "Egg": "Icecream Egg",
     "Stats": {
       "Bubbles": 80,
-      "Seashells": 9.5
+      "Coins": 9.5
     },
     "Rarity": "Epic",
     "Images": {
       "Normal": "rbxassetid://123953129160495",
       "Shiny": "rbxassetid://110977698041088"
     },
-    "Chance": 3,
     "Limited": true,
-    "Egg": "Icecream Egg"
+    "Chance": 3,
+    "LayoutOrder": 224
   },
   "Beelzebub": {
-    "LayoutOrder": 243,
     "Stats": {
       "Bubbles": 3800,
-      "Seashells": 1350,
-      "Gems": 80
+      "Gems": 80,
+      "Coins": 1350
     },
     "Rarity": "Secret",
     "Images": {
@@ -704,12 +881,13 @@
       "MythicShiny": "rbxassetid://76851480824331",
       "Shiny": "rbxassetid://74964732493862"
     },
-    "Chance": 0.000002,
     "Limited": true,
+    "Chance": 0.000002,
+    "LayoutOrder": 243,
     "Tag": "Secret Bounty"
   },
   "Ophanim": {
-    "LayoutOrder": 79,
+    "Egg": "Season 1 Egg",
     "Stats": {
       "Bubbles": 925,
       "Gems": 15,
@@ -725,11 +903,11 @@
     "Limited": true,
     "Tier": 1,
     "Chance": 0.5,
-    "Egg": "Season 1 Egg",
+    "LayoutOrder": 79,
     "Tag": "Season 1"
   },
   "Demonweb": {
-    "LayoutOrder": 179,
+    "Egg": "Underworld Egg",
     "Stats": {
       "Bubbles": 1450,
       "Gems": 24,
@@ -742,13 +920,13 @@
       "MythicShiny": "rbxassetid://128311559664422",
       "Shiny": "rbxassetid://135551158544963"
     },
-    "Chance": 0.0025,
-    "Egg": "Underworld Egg",
     "Limited": true,
-    "Tier": 2
+    "Tier": 2,
+    "Chance": 0.0025,
+    "LayoutOrder": 179
   },
   "Dragon": {
-    "LayoutOrder": 20,
+    "Egg": "Spikey Egg",
     "Stats": {
       "Bubbles": 12,
       "Coins": 8
@@ -759,25 +937,38 @@
       "Shiny": "rbxassetid://76431034154587"
     },
     "Chance": 12,
-    "Egg": "Spikey Egg"
+    "LayoutOrder": 20
   },
   "Fossil Dragon": {
-    "LayoutOrder": 254,
+    "Egg": "Fossil Egg",
     "Stats": {
       "Bubbles": 100,
-      "Seashells": 15
+      "Coins": 15
     },
     "Rarity": "Epic",
     "Images": {
       "Normal": "rbxassetid://134377016763911",
       "Shiny": "rbxassetid://92453230170802"
     },
-    "Chance": 3,
     "Limited": true,
-    "Egg": "Fossil Egg"
+    "Chance": 3,
+    "LayoutOrder": 254
+  },
+  "Light Lord": {
+    "Stats": {
+      "Bubbles": 5400,
+      "Gems": 115,
+      "Coins": 4700
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://119087888924022",
+      "Shiny": "rbxassetid://122048931438933"
+    },
+    "Chance": 100,
+    "LayoutOrder": 348
   },
   "Lunar Deity": {
-    "LayoutOrder": 81,
     "Stats": {
       "Bubbles": 975,
       "Gems": 15.5,
@@ -788,12 +979,45 @@
       "Normal": "rbxassetid://85587469397800",
       "Shiny": "rbxassetid://130350931628389"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 81,
     "Tag": "Season 1"
   },
+  "Dark Golem": {
+    "Egg": "Dark Egg",
+    "Stats": {
+      "Bubbles": 100,
+      "Coins": 15
+    },
+    "Rarity": "Rare",
+    "Images": {
+      "Normal": "rbxassetid://77806044103116",
+      "Shiny": "rbxassetid://91133953823987"
+    },
+    "Limited": true,
+    "Chance": 30,
+    "LayoutOrder": 284
+  },
+  "Frost Defender": {
+    "Stats": {
+      "Bubbles": 5200,
+      "Gems": 110,
+      "Coins": 4500
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://96612932716465",
+      "Mythic": "rbxassetid://83673032263626",
+      "MythicShiny": "rbxassetid://106588061860991",
+      "Shiny": "rbxassetid://79349494590687"
+    },
+    "Limited": true,
+    "Chance": 0.000001,
+    "LayoutOrder": 344
+  },
   "Lunarcorn": {
-    "LayoutOrder": 38,
+    "Egg": "Lunar Egg",
     "Stats": {
       "Bubbles": 70,
       "Coins": 55
@@ -804,10 +1028,10 @@
       "Shiny": "rbxassetid://122694213022562"
     },
     "Chance": 2.25,
-    "Egg": "Lunar Egg"
+    "LayoutOrder": 38
   },
   "Cyborg Phoenix": {
-    "LayoutOrder": 157,
+    "Egg": "Cyber Egg",
     "Stats": {
       "Bubbles": 630,
       "Gems": 12,
@@ -820,12 +1044,12 @@
       "MythicShiny": "rbxassetid://88293167244219",
       "Shiny": "rbxassetid://135337380770193"
     },
+    "Tier": 1,
     "Chance": 0.04,
-    "Egg": "Cyber Egg",
-    "Tier": 1
+    "LayoutOrder": 157
   },
   "Rainbow Shock": {
-    "LayoutOrder": 66,
+    "Egg": "Rainbow Egg",
     "Stats": {
       "Bubbles": 1250,
       "Gems": 20,
@@ -838,16 +1062,16 @@
       "MythicShiny": "rbxassetid://136701671381708",
       "Shiny": "rbxassetid://139624175007925"
     },
+    "Tier": 3,
     "Chance": 0.0005,
-    "Egg": "Rainbow Egg",
-    "Tier": 3
+    "LayoutOrder": 66
   },
   "Captain's Curse": {
-    "LayoutOrder": 267,
+    "Egg": "Pirate Egg",
     "Stats": {
       "Bubbles": 4350,
-      "Seashells": 2100,
-      "Gems": 92
+      "Gems": 92,
+      "Coins": 2100
     },
     "Rarity": "Legendary",
     "Images": {
@@ -856,13 +1080,12 @@
       "MythicShiny": "rbxassetid://105746802239426",
       "Shiny": "rbxassetid://79211934661020"
     },
-    "Chance": 0.0005,
-    "Egg": "Pirate Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.0005,
+    "LayoutOrder": 267
   },
   "D0GGY1337": {
-    "LayoutOrder": 190,
     "Stats": {
       "Bubbles": 3350,
       "Gems": 70,
@@ -875,12 +1098,13 @@
       "MythicShiny": "rbxassetid://140729118755512",
       "Shiny": "rbxassetid://115470554647335"
     },
-    "Chance": 0.000002,
     "Limited": true,
+    "Chance": 0.000002,
+    "LayoutOrder": 190,
     "Tag": "Secret Bounty"
   },
   "Panda": {
-    "LayoutOrder": 10,
+    "Egg": "Spotted Egg",
     "Stats": {
       "Bubbles": 7,
       "Coins": 3
@@ -891,14 +1115,14 @@
       "Shiny": "rbxassetid://100131755062535"
     },
     "Chance": 5,
-    "Egg": "Spotted Egg"
+    "LayoutOrder": 10
   },
   "Runic Defender": {
-    "LayoutOrder": 241,
+    "Egg": "Season 3 Egg",
     "Stats": {
       "Bubbles": 1600,
-      "Seashells": 150,
-      "Gems": 30
+      "Gems": 30,
+      "Coins": 150
     },
     "Rarity": "Legendary",
     "Images": {
@@ -910,11 +1134,11 @@
     "Limited": true,
     "Tier": 1,
     "Chance": 0.5,
-    "Egg": "Season 3 Egg",
+    "LayoutOrder": 241,
     "Tag": "Season 3"
   },
   "Long Kitty": {
-    "LayoutOrder": 73,
+    "Egg": "Silly Egg",
     "Stats": {
       "Bubbles": 210,
       "Coins": 270
@@ -924,13 +1148,12 @@
       "Normal": "rbxassetid://119634181104666",
       "Shiny": "rbxassetid://110282638403474"
     },
-    "Chance": 30,
-    "Egg": "Silly Egg",
     "Limited": true,
+    "Chance": 30,
+    "LayoutOrder": 73,
     "Tag": "Silly"
   },
   "Dark Lord": {
-    "LayoutOrder": 206,
     "Stats": {
       "Bubbles": 4000,
       "Gems": 100,
@@ -941,10 +1164,11 @@
       "Normal": "rbxassetid://116068259071465",
       "Shiny": "rbxassetid://103208133391728"
     },
-    "Chance": 100
+    "Chance": 100,
+    "LayoutOrder": 206
   },
   "Royal Trophy": {
-    "LayoutOrder": 133,
+    "Egg": "100M Egg",
     "Stats": {
       "Bubbles": 3000,
       "Gems": 65,
@@ -957,13 +1181,13 @@
       "MythicShiny": "rbxassetid://87743556079640",
       "Shiny": "rbxassetid://103886175167440"
     },
-    "Chance": 0.000002,
-    "Egg": "100M Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.000002,
+    "LayoutOrder": 133
   },
   "Seraphic Bunny": {
-    "LayoutOrder": 115,
+    "Egg": "Bunny Egg",
     "Stats": {
       "Bubbles": 500,
       "Gems": 8,
@@ -976,13 +1200,32 @@
       "MythicShiny": "rbxassetid://124711616271771",
       "Shiny": "rbxassetid://103392017403068"
     },
-    "Chance": 0.02,
-    "Egg": "Bunny Egg",
     "Limited": true,
-    "Tier": 2
+    "Tier": 2,
+    "Chance": 0.02,
+    "LayoutOrder": 115
+  },
+  "Queen Bee": {
+    "Egg": "Bee Egg",
+    "Stats": {
+      "Bubbles": 5500,
+      "Gems": 116,
+      "Coins": 4650
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://98071862960691",
+      "Mythic": "rbxassetid://100577729991128",
+      "MythicShiny": "rbxassetid://92444157698095",
+      "Shiny": "rbxassetid://100982735023477"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.000005,
+    "LayoutOrder": 384
   },
   "Darkness Creature": {
-    "LayoutOrder": 185,
+    "Egg": "200M Egg",
     "Stats": {
       "Bubbles": 1450,
       "Gems": 24,
@@ -995,13 +1238,12 @@
       "MythicShiny": "rbxassetid://138494095812890",
       "Shiny": "rbxassetid://77940831616108"
     },
-    "Chance": 0.002,
-    "Egg": "200M Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.002,
+    "LayoutOrder": 185
   },
   "Bongo Kitty": {
-    "LayoutOrder": 212,
     "Stats": {
       "Bubbles": 1300,
       "Gems": 22,
@@ -1014,12 +1256,32 @@
       "MythicShiny": "rbxassetid://77677594709772",
       "Shiny": "rbxassetid://136416967901658"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 212,
     "Tag": "Exclusive Pet"
   },
+  "Void Eye": {
+    "Egg": "Voidcrystal Egg",
+    "Stats": {
+      "Bubbles": 1100,
+      "Gems": 25,
+      "Coins": 900
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://80857178900736",
+      "Mythic": "rbxassetid://134868386467426",
+      "MythicShiny": "rbxassetid://80132700140870",
+      "Shiny": "rbxassetid://70746893052553"
+    },
+    "Limited": true,
+    "Tier": 2,
+    "Chance": 0.02,
+    "LayoutOrder": 293
+  },
   "Kitty": {
-    "LayoutOrder": 2,
+    "Egg": "Common Egg",
     "Stats": {
       "Bubbles": 1,
       "Coins": 1.1
@@ -1030,10 +1292,10 @@
       "Shiny": "rbxassetid://107484379413352"
     },
     "Chance": 30,
-    "Egg": "Common Egg"
+    "LayoutOrder": 2
   },
   "Mouse": {
-    "LayoutOrder": 6,
+    "Egg": "Spotted Egg",
     "Stats": {
       "Bubbles": 2,
       "Coins": 2
@@ -1044,10 +1306,10 @@
       "Shiny": "rbxassetid://113473859675084"
     },
     "Chance": 40,
-    "Egg": "Spotted Egg"
+    "LayoutOrder": 6
   },
   "Cyber Wolf": {
-    "LayoutOrder": 156,
+    "Egg": "Cyber Egg",
     "Stats": {
       "Bubbles": 130,
       "Tickets": 140
@@ -1058,10 +1320,10 @@
       "Shiny": "rbxassetid://109676694882054"
     },
     "Chance": 3,
-    "Egg": "Cyber Egg"
+    "LayoutOrder": 156
   },
   "Void Kitty": {
-    "LayoutOrder": 41,
+    "Egg": "Void Egg",
     "Stats": {
       "Bubbles": 18,
       "Coins": 16
@@ -1072,10 +1334,10 @@
       "Shiny": "rbxassetid://98299711588470"
     },
     "Chance": 65,
-    "Egg": "Void Egg"
+    "LayoutOrder": 41
   },
   "Wind Fairy": {
-    "LayoutOrder": 214,
+    "Egg": "Series 2 Egg",
     "Stats": {
       "Bubbles": 195,
       "Tickets": 265
@@ -1085,13 +1347,12 @@
       "Normal": "rbxassetid://101788692135241",
       "Shiny": "rbxassetid://93525887641889"
     },
-    "Chance": 9.9,
-    "Egg": "Series 2 Egg",
     "Limited": true,
+    "Chance": 9.9,
+    "LayoutOrder": 214,
     "Tag": "Series 2"
   },
   "Holy Shock": {
-    "LayoutOrder": 90,
     "Stats": {
       "Bubbles": 975,
       "Gems": 15.5,
@@ -1103,10 +1364,11 @@
       "Shiny": "rbxassetid://131835208422374"
     },
     "Chance": 100,
+    "LayoutOrder": 90,
     "Tag": "Milestone Pet"
   },
   "Rainbow Marshmellow": {
-    "LayoutOrder": 110,
+    "Egg": "Pastel Egg",
     "Stats": {
       "Bubbles": 1250,
       "Gems": 20,
@@ -1119,13 +1381,13 @@
       "MythicShiny": "rbxassetid://93613196809607",
       "Shiny": "rbxassetid://113156755564013"
     },
-    "Chance": 0.0008,
-    "Egg": "Pastel Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.0008,
+    "LayoutOrder": 110
   },
   "Virus": {
-    "LayoutOrder": 53,
+    "Egg": "Hell Egg",
     "Stats": {
       "Bubbles": 785,
       "Gems": 9,
@@ -1138,12 +1400,12 @@
       "MythicShiny": "rbxassetid://79500546432529",
       "Shiny": "rbxassetid://104208878857321"
     },
+    "Tier": 3,
     "Chance": 0.002,
-    "Egg": "Hell Egg",
-    "Tier": 3
+    "LayoutOrder": 53
   },
   "Emerald Bat": {
-    "LayoutOrder": 32,
+    "Egg": "Crystal Egg",
     "Stats": {
       "Bubbles": 50,
       "Coins": 35
@@ -1154,10 +1416,24 @@
       "Shiny": "rbxassetid://76112768260518"
     },
     "Chance": 2.25,
-    "Egg": "Crystal Egg"
+    "LayoutOrder": 32
+  },
+  "Bunny Tophat": {
+    "Stats": {
+      "Bubbles": 5200,
+      "Gems": 107,
+      "Coins": 4400
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://95425469896899",
+      "Shiny": "rbxassetid://103086426985149"
+    },
+    "Chance": 100,
+    "LayoutOrder": 331
   },
   "Crystal Unicorn": {
-    "LayoutOrder": 152,
+    "Egg": "Mining Egg",
     "Stats": {
       "Bubbles": 480,
       "Gems": 6,
@@ -1170,12 +1446,11 @@
       "MythicShiny": "rbxassetid://76169254234638",
       "Shiny": "rbxassetid://80328115583771"
     },
+    "Tier": 1,
     "Chance": 0.5,
-    "Egg": "Mining Egg",
-    "Tier": 1
+    "LayoutOrder": 152
   },
   "Rainbow Blitz": {
-    "LayoutOrder": 93,
     "Stats": {
       "Bubbles": 1250,
       "Gems": 20,
@@ -1187,14 +1462,15 @@
       "Shiny": "rbxassetid://127263373580765"
     },
     "Chance": 100,
+    "LayoutOrder": 93,
     "Tag": "Milestone Pet"
   },
   "Soarin' Surfer": {
-    "LayoutOrder": 226,
+    "Egg": "Icecream Egg",
     "Stats": {
       "Bubbles": 1600,
-      "Seashells": 200,
-      "Gems": 30
+      "Gems": 30,
+      "Coins": 200
     },
     "Rarity": "Legendary",
     "Images": {
@@ -1203,13 +1479,30 @@
       "MythicShiny": "rbxassetid://85679986690965",
       "Shiny": "rbxassetid://133090733032411"
     },
-    "Chance": 0.01,
-    "Egg": "Icecream Egg",
     "Limited": true,
-    "Tier": 2
+    "Tier": 2,
+    "Chance": 0.01,
+    "LayoutOrder": 226
+  },
+  "Stained Star": {
+    "Stats": {
+      "Bubbles": 4600,
+      "Gems": 100,
+      "Coins": 4000
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://81496528133040",
+      "Mythic": "rbxassetid://130369715317292",
+      "MythicShiny": "rbxassetid://71135874828889",
+      "Shiny": "rbxassetid://108474800060090"
+    },
+    "Limited": true,
+    "Chance": 0.01,
+    "LayoutOrder": 302
   },
   "Magma Fox": {
-    "LayoutOrder": 25,
+    "Egg": "Magma Egg",
     "Stats": {
       "Bubbles": 15,
       "Coins": 10
@@ -1220,10 +1513,10 @@
       "Shiny": "rbxassetid://107430075457632"
     },
     "Chance": 15,
-    "Egg": "Magma Egg"
+    "LayoutOrder": 25
   },
   "Manny": {
-    "LayoutOrder": 67,
+    "Egg": "Aura Egg",
     "Stats": {
       "Bubbles": 120,
       "Gems": 1.75,
@@ -1234,13 +1527,13 @@
       "Normal": "rbxassetid://136450592953585",
       "Shiny": "rbxassetid://114012206693503"
     },
-    "Chance": 65,
-    "Egg": "Aura Egg",
     "Limited": true,
+    "Chance": 65,
+    "LayoutOrder": 67,
     "Tag": "Aura"
   },
   "Hell Bat": {
-    "LayoutOrder": 57,
+    "Egg": "Nightmare Egg",
     "Stats": {
       "Bubbles": 185,
       "Coins": 250
@@ -1251,10 +1544,10 @@
       "Shiny": "rbxassetid://75103443297629"
     },
     "Chance": 2.25,
-    "Egg": "Nightmare Egg"
+    "LayoutOrder": 57
   },
   "Orange Deer": {
-    "LayoutOrder": 62,
+    "Egg": "Rainbow Egg",
     "Stats": {
       "Bubbles": 82,
       "Gems": 1.4,
@@ -1266,10 +1559,10 @@
       "Shiny": "rbxassetid://104447143767793"
     },
     "Chance": 29.9,
-    "Egg": "Rainbow Egg"
+    "LayoutOrder": 62
   },
   "Dark Dragon": {
-    "LayoutOrder": 21,
+    "Egg": "Spikey Egg",
     "Stats": {
       "Bubbles": 16,
       "Coins": 12
@@ -1280,10 +1573,10 @@
       "Shiny": "rbxassetid://95291070160423"
     },
     "Chance": 6.5,
-    "Egg": "Spikey Egg"
+    "LayoutOrder": 21
   },
   "Equalizer": {
-    "LayoutOrder": 200,
+    "Egg": "Neon Egg",
     "Stats": {
       "Bubbles": 2100,
       "Gems": 40,
@@ -1296,12 +1589,12 @@
       "MythicShiny": "rbxassetid://96280637918975",
       "Shiny": "rbxassetid://109295202145049"
     },
+    "Tier": 3,
     "Chance": 0.00012,
-    "Egg": "Neon Egg",
-    "Tier": 3
+    "LayoutOrder": 200
   },
   "Lord Shock": {
-    "LayoutOrder": 181,
+    "Egg": "Underworld Egg",
     "Stats": {
       "Bubbles": 3500,
       "Gems": 72,
@@ -1314,13 +1607,44 @@
       "MythicShiny": "rbxassetid://111874952582221",
       "Shiny": "rbxassetid://70512874553960"
     },
-    "Chance": 2e-7,
-    "Egg": "Underworld Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 2e-7,
+    "LayoutOrder": 181
+  },
+  "Rainbow Shock Tophat": {
+    "Stats": {
+      "Bubbles": 5500,
+      "Gems": 107,
+      "Coins": 4400
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://109524435375462",
+      "Shiny": "rbxassetid://89737473194759"
+    },
+    "Chance": 100,
+    "LayoutOrder": 333
+  },
+  "Pixel Hydra": {
+    "Stats": {
+      "Bubbles": 3500,
+      "Gems": 70,
+      "Coins": 3750
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://73184694670330",
+      "Mythic": "rbxassetid://140104315925840",
+      "MythicShiny": "rbxassetid://123769576253743",
+      "Shiny": "rbxassetid://109430107092502"
+    },
+    "Limited": true,
+    "Chance": 0.01,
+    "LayoutOrder": 328
   },
   "Flying Bunny": {
-    "LayoutOrder": 121,
+    "Egg": "Throwback Egg",
     "Stats": {
       "Bubbles": 115,
       "Coins": 125
@@ -1330,12 +1654,12 @@
       "Normal": "rbxassetid://132767819077599",
       "Shiny": "rbxassetid://130968037860846"
     },
-    "Chance": 3,
     "Limited": true,
-    "Egg": "Throwback Egg"
+    "Chance": 3,
+    "LayoutOrder": 121
   },
   "King Pufferfish": {
-    "LayoutOrder": 132,
+    "Egg": "100M Egg",
     "Stats": {
       "Bubbles": 1475,
       "Gems": 32,
@@ -1348,28 +1672,28 @@
       "MythicShiny": "rbxassetid://123241517588205",
       "Shiny": "rbxassetid://135162856369456"
     },
-    "Chance": 0.000125,
-    "Egg": "100M Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.000125,
+    "LayoutOrder": 132
   },
   "Watermelon Boi": {
-    "LayoutOrder": 234,
+    "Egg": "Fruit Egg",
     "Stats": {
       "Bubbles": 80,
-      "Seashells": 30
+      "Coins": 30
     },
     "Rarity": "Epic",
     "Images": {
       "Normal": "rbxassetid://122304474596972",
       "Shiny": "rbxassetid://123473543481646"
     },
-    "Chance": 3,
     "Limited": true,
-    "Egg": "Fruit Egg"
+    "Chance": 3,
+    "LayoutOrder": 234
   },
   "Mining Bat": {
-    "LayoutOrder": 149,
+    "Egg": "Mining Egg",
     "Stats": {
       "Bubbles": 45,
       "Tickets": 25
@@ -1380,14 +1704,14 @@
       "Shiny": "rbxassetid://119531912421769"
     },
     "Chance": 30,
-    "Egg": "Mining Egg"
+    "LayoutOrder": 149
   },
   "Strawberry Sundae Champion": {
-    "LayoutOrder": 231,
+    "Egg": "Icecream Egg",
     "Stats": {
       "Bubbles": 3800,
-      "Seashells": 1500,
-      "Gems": 80
+      "Gems": 80,
+      "Coins": 1500
     },
     "Rarity": "Secret",
     "Images": {
@@ -1396,13 +1720,12 @@
       "MythicShiny": "rbxassetid://83837815621876",
       "Shiny": "rbxassetid://94309683692060"
     },
-    "Chance": 0.000002,
-    "Egg": "Icecream Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.000002,
+    "LayoutOrder": 231
   },
   "Elite Challenger": {
-    "LayoutOrder": 138,
     "Stats": {
       "Bubbles": 2350,
       "Gems": 50,
@@ -1413,12 +1736,12 @@
       "Normal": "rbxassetid://88302006299732",
       "Shiny": "rbxassetid://87918443374697"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 138,
     "Tag": "Competitive"
   },
   "Dark Serpent": {
-    "LayoutOrder": 136,
     "Stats": {
       "Bubbles": 120,
       "Gems": 1.6,
@@ -1429,12 +1752,29 @@
       "Normal": "rbxassetid://98681684304520",
       "Shiny": "rbxassetid://126906631192910"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 136,
     "Tag": "Exclusive Pet"
   },
+  "Stickbug": {
+    "Egg": "Season 4 Egg",
+    "Stats": {
+      "Bubbles": 210,
+      "Coins": 30
+    },
+    "Rarity": "Epic",
+    "Images": {
+      "Normal": "rbxassetid://72664346997706",
+      "Shiny": "rbxassetid://119213934389294"
+    },
+    "Limited": true,
+    "Chance": 10,
+    "LayoutOrder": 340,
+    "Tag": "Season 4"
+  },
   "Judgement": {
-    "LayoutOrder": 78,
+    "Egg": "Season 1 Egg",
     "Stats": {
       "Bubbles": 185,
       "Coins": 250
@@ -1444,13 +1784,13 @@
       "Normal": "rbxassetid://102786140868252",
       "Shiny": "rbxassetid://110006241851417"
     },
-    "Chance": 10,
-    "Egg": "Season 1 Egg",
     "Limited": true,
+    "Chance": 10,
+    "LayoutOrder": 78,
     "Tag": "Season 1"
   },
   "Silly Doggy :)": {
-    "LayoutOrder": 76,
+    "Egg": "Silly Egg",
     "Stats": {
       "Bubbles": 2700,
       "Gems": 50,
@@ -1466,11 +1806,28 @@
     "Limited": true,
     "Tier": 3,
     "Chance": 0.0001,
-    "Egg": "Silly Egg",
+    "LayoutOrder": 76,
     "Tag": "Silly"
   },
+  "Dominus Astra": {
+    "Stats": {
+      "Bubbles": 1350,
+      "Gems": 28,
+      "Coins": 700
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://139732896865842",
+      "Mythic": "rbxassetid://120336257422474",
+      "MythicShiny": "rbxassetid://135101973181466",
+      "Shiny": "rbxassetid://135841981490653"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 376,
+    "Tag": "Exclusive Pet"
+  },
   "Void Fox": {
-    "LayoutOrder": 43,
     "Stats": {
       "Bubbles": 65,
       "Coins": 55
@@ -1480,10 +1837,11 @@
       "Normal": "rbxassetid://103797280739577",
       "Shiny": "rbxassetid://114427178223777"
     },
-    "Chance": 100
+    "Chance": 100,
+    "LayoutOrder": 43
   },
   "Void Demon": {
-    "LayoutOrder": 44,
+    "Egg": "Void Egg",
     "Stats": {
       "Bubbles": 85,
       "Coins": 70
@@ -1494,10 +1852,27 @@
       "Shiny": "rbxassetid://136094263998699"
     },
     "Chance": 2.25,
-    "Egg": "Void Egg"
+    "LayoutOrder": 44
+  },
+  "OwOlord": {
+    "Stats": {
+      "Bubbles": 5700,
+      "Gems": 115,
+      "Coins": 4700
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://119431533067723",
+      "Mythic": "rbxassetid://93374946492817",
+      "MythicShiny": "rbxassetid://74990739994868",
+      "Shiny": "rbxassetid://85177359625907"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 377
   },
   "Competitor Doggy": {
-    "LayoutOrder": 140,
+    "Egg": "Series 1 Egg",
     "Stats": {
       "Bubbles": 40,
       "Coins": 20
@@ -1507,13 +1882,13 @@
       "Normal": "rbxassetid://127208677869819",
       "Shiny": "rbxassetid://89651347381678"
     },
-    "Chance": 90,
-    "Egg": "Series 1 Egg",
     "Limited": true,
+    "Chance": 90,
+    "LayoutOrder": 140,
     "Tag": "Series 1"
   },
   "Bunnnny": {
-    "LayoutOrder": 72,
+    "Egg": "Silly Egg",
     "Stats": {
       "Bubbles": 135,
       "Gems": 2.25,
@@ -1524,13 +1899,12 @@
       "Normal": "rbxassetid://110946352972474",
       "Shiny": "rbxassetid://93248525845837"
     },
-    "Chance": 65,
-    "Egg": "Silly Egg",
     "Limited": true,
+    "Chance": 65,
+    "LayoutOrder": 72,
     "Tag": "Silly"
   },
   "Abyssal Dragon": {
-    "LayoutOrder": 95,
     "Stats": {
       "Bubbles": 1250,
       "Gems": 20,
@@ -1544,10 +1918,11 @@
       "Shiny": "rbxassetid://72350437169534"
     },
     "Chance": 0.025,
+    "LayoutOrder": 95,
     "Tag": "Rift Chest"
   },
   "Mech Robot": {
-    "LayoutOrder": 160,
+    "Egg": "Cyber Egg",
     "Stats": {
       "Bubbles": 3000,
       "Gems": 65,
@@ -1560,12 +1935,11 @@
       "MythicShiny": "rbxassetid://129610761607639",
       "Shiny": "rbxassetid://119284114227733"
     },
+    "Tier": 3,
     "Chance": 0.0000015,
-    "Egg": "Cyber Egg",
-    "Tier": 3
+    "LayoutOrder": 160
   },
   "Elite Soul": {
-    "LayoutOrder": 139,
     "Stats": {
       "Bubbles": 3000,
       "Gems": 65,
@@ -1578,16 +1952,33 @@
       "MythicShiny": "rbxassetid://74538893448634",
       "Shiny": "rbxassetid://124666781440286"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 139,
     "Tag": "Competitive"
   },
+  "Destiny": {
+    "Stats": {
+      "Bubbles": 5700,
+      "Gems": 115,
+      "Coins": 4700
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://135227274726844",
+      "Mythic": "rbxassetid://127924282486563",
+      "MythicShiny": "rbxassetid://139391457946124",
+      "Shiny": "rbxassetid://112358935967342"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 373
+  },
   "Infernal": {
-    "LayoutOrder": 268,
     "Stats": {
       "Bubbles": 4600,
-      "Seashells": 2300,
-      "Gems": 97
+      "Gems": 97,
+      "Coins": 2300
     },
     "Rarity": "Legendary",
     "Images": {
@@ -1596,12 +1987,12 @@
       "MythicShiny": "rbxassetid://137596047110173",
       "Shiny": "rbxassetid://79498394985069"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 268,
     "Tag": "Ancient Chest"
   },
   "Dawn": {
-    "LayoutOrder": 166,
     "Stats": {
       "Bubbles": 1050,
       "Gems": 18,
@@ -1612,27 +2003,28 @@
       "Normal": "rbxassetid://129676752705804",
       "Shiny": "rbxassetid://115221531612569"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 166,
     "Tag": "Season 2"
   },
   "Beach Boi": {
-    "LayoutOrder": 221,
+    "Egg": "Beach Egg",
     "Stats": {
       "Bubbles": 2,
-      "Seashells": 4
+      "Coins": 4
     },
     "Rarity": "Rare",
     "Images": {
       "Normal": "rbxassetid://118949369126530",
       "Shiny": "rbxassetid://88252988930956"
     },
-    "Chance": 10,
     "Limited": true,
-    "Egg": "Beach Egg"
+    "Chance": 10,
+    "LayoutOrder": 221
   },
   "Hyperwave Kitty": {
-    "LayoutOrder": 201,
+    "Egg": "Neon Egg",
     "Stats": {
       "Bubbles": 3600,
       "Gems": 75,
@@ -1645,12 +2037,11 @@
       "MythicShiny": "rbxassetid://114636492784944",
       "Shiny": "rbxassetid://136163493796243"
     },
+    "Tier": 3,
     "Chance": 8e-7,
-    "Egg": "Neon Egg",
-    "Tier": 3
+    "LayoutOrder": 201
   },
   "Capybara Plushie": {
-    "LayoutOrder": 194,
     "Stats": {
       "Bubbles": 1250,
       "Gems": 20,
@@ -1663,12 +2054,12 @@
       "MythicShiny": "rbxassetid://138902589022873",
       "Shiny": "rbxassetid://124634840337548"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 194,
     "Tag": "Exclusive Pet"
   },
   "Midas": {
-    "LayoutOrder": 99,
     "Stats": {
       "Bubbles": 1325,
       "Gems": 25,
@@ -1681,12 +2072,32 @@
       "MythicShiny": "rbxassetid://128269931598351",
       "Shiny": "rbxassetid://80438490583372"
     },
-    "Chance": 0.1,
     "Limited": true,
+    "Chance": 0.1,
+    "LayoutOrder": 99,
     "Tag": "Golden Mystery Box"
   },
+  "Shard": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 6200,
+      "Gems": 125,
+      "Coins": 5200
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://80278483596781",
+      "Mythic": "rbxassetid://94482515769275",
+      "MythicShiny": "rbxassetid://102012406503481",
+      "Shiny": "rbxassetid://102582177424036"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 1e-8,
+    "LayoutOrder": 371
+  },
   "Silver Fox": {
-    "LayoutOrder": 128,
+    "Egg": "100M Egg",
     "Stats": {
       "Bubbles": 110,
       "Gems": 2.5,
@@ -1697,12 +2108,12 @@
       "Normal": "rbxassetid://122444893544859",
       "Shiny": "rbxassetid://100728204642259"
     },
-    "Chance": 30,
     "Limited": true,
-    "Egg": "100M Egg"
+    "Chance": 30,
+    "LayoutOrder": 128
   },
   "Egg Bunny": {
-    "LayoutOrder": 113,
+    "Egg": "Bunny Egg",
     "Stats": {
       "Bubbles": 88,
       "Gems": 1.8,
@@ -1713,12 +2124,12 @@
       "Normal": "rbxassetid://99971205246669",
       "Shiny": "rbxassetid://76077384828967"
     },
-    "Chance": 30,
     "Limited": true,
-    "Egg": "Bunny Egg"
+    "Chance": 30,
+    "LayoutOrder": 113
   },
   "Giant Chocolate Chicken": {
-    "LayoutOrder": 111,
+    "Egg": "Pastel Egg",
     "Stats": {
       "Bubbles": 2225,
       "Gems": 45,
@@ -1731,13 +2142,12 @@
       "MythicShiny": "rbxassetid://91793667211055",
       "Shiny": "rbxassetid://121098504222130"
     },
-    "Chance": 0.000002,
-    "Egg": "Pastel Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.000002,
+    "LayoutOrder": 111
   },
   "Moonlight": {
-    "LayoutOrder": 167,
     "Stats": {
       "Bubbles": 1325,
       "Gems": 23,
@@ -1750,12 +2160,32 @@
       "MythicShiny": "rbxassetid://101837907789199",
       "Shiny": "rbxassetid://89009838742526"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 167,
     "Tag": "Season 2"
   },
+  "Patriotic Penguin": {
+    "Egg": "July4th Egg",
+    "Stats": {
+      "Bubbles": 1200,
+      "Gems": 25,
+      "Coins": 950
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://138311817794704",
+      "Mythic": "rbxassetid://102100603699460",
+      "MythicShiny": "rbxassetid://73783376773186",
+      "Shiny": "rbxassetid://121261024227431"
+    },
+    "Limited": true,
+    "Tier": 2,
+    "Chance": 0.02,
+    "LayoutOrder": 320
+  },
   "Golem": {
-    "LayoutOrder": 17,
+    "Egg": "Spikey Egg",
     "Stats": {
       "Bubbles": 3,
       "Coins": 4
@@ -1766,10 +2196,9 @@
       "Shiny": "rbxassetid://131695199204174"
     },
     "Chance": 30,
-    "Egg": "Spikey Egg"
+    "LayoutOrder": 17
   },
   "Vaporium": {
-    "LayoutOrder": 189,
     "Stats": {
       "Bubbles": 2025,
       "Gems": 40,
@@ -1780,12 +2209,33 @@
       "Normal": "rbxassetid://130153986659837",
       "Shiny": "rbxassetid://90896435492375"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 189,
     "Tag": "Reward Pet"
   },
+  "Wilted Branch": {
+    "Egg": "Season 4 Egg",
+    "Stats": {
+      "Bubbles": 1600,
+      "Gems": 40,
+      "Coins": 1200
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://98788195438077",
+      "Mythic": "rbxassetid://129136110996276",
+      "MythicShiny": "rbxassetid://132197411335867",
+      "Shiny": "rbxassetid://115598034602164"
+    },
+    "Limited": true,
+    "Tier": 1,
+    "Chance": 0.5,
+    "LayoutOrder": 341,
+    "Tag": "Season 4"
+  },
   "Paper Bunny": {
-    "LayoutOrder": 106,
+    "Egg": "Pastel Egg",
     "Stats": {
       "Bubbles": 55,
       "Coins": 60
@@ -1795,12 +2245,12 @@
       "Normal": "rbxassetid://126388715768535",
       "Shiny": "rbxassetid://70466841700556"
     },
-    "Chance": 29.9,
     "Limited": true,
-    "Egg": "Pastel Egg"
+    "Chance": 29.9,
+    "LayoutOrder": 106
   },
   "Polar Bear": {
-    "LayoutOrder": 9,
+    "Egg": "Spotted Egg",
     "Stats": {
       "Bubbles": 4,
       "Coins": 2.5
@@ -1811,10 +2261,9 @@
       "Shiny": "rbxassetid://104526732113294"
     },
     "Chance": 10,
-    "Egg": "Spotted Egg"
+    "LayoutOrder": 9
   },
   "Flying Gem": {
-    "LayoutOrder": 86,
     "Stats": {
       "Bubbles": 50,
       "Gems": 4.5,
@@ -1826,10 +2275,11 @@
       "Shiny": "rbxassetid://138545612281855"
     },
     "Chance": 100,
+    "LayoutOrder": 86,
     "Tag": "Exclusive Pet"
   },
   "Piggy": {
-    "LayoutOrder": 14,
+    "Egg": "Iceshard Egg",
     "Stats": {
       "Bubbles": 11,
       "Coins": 6
@@ -1840,14 +2290,32 @@
       "Shiny": "rbxassetid://100449039008111"
     },
     "Chance": 14,
-    "Egg": "Iceshard Egg"
+    "LayoutOrder": 14
+  },
+  "Starry Kitsune": {
+    "Stats": {
+      "Bubbles": 1700,
+      "Gems": 35,
+      "Coins": 850
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://129674313668141",
+      "Mythic": "rbxassetid://93748929885446",
+      "MythicShiny": "rbxassetid://80318514777840",
+      "Shiny": "rbxassetid://100930088206400"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 327,
+    "Tag": "Exclusive Pet"
   },
   "Kiwi Dragon": {
-    "LayoutOrder": 235,
+    "Egg": "Fruit Egg",
     "Stats": {
       "Bubbles": 740,
-      "Seashells": 95,
-      "Gems": 18
+      "Gems": 18,
+      "Coins": 95
     },
     "Rarity": "Legendary",
     "Images": {
@@ -1856,13 +2324,13 @@
       "MythicShiny": "rbxassetid://122336536412648",
       "Shiny": "rbxassetid://96355267841970"
     },
-    "Chance": 0.02,
-    "Egg": "Fruit Egg",
     "Limited": true,
-    "Tier": 2
+    "Tier": 2,
+    "Chance": 0.02,
+    "LayoutOrder": 235
   },
   "Bionic Shard": {
-    "LayoutOrder": 159,
+    "Egg": "Cyber Egg",
     "Stats": {
       "Bubbles": 1550,
       "Gems": 32,
@@ -1875,28 +2343,28 @@
       "MythicShiny": "rbxassetid://112797928273116",
       "Shiny": "rbxassetid://99439972902415"
     },
+    "Tier": 3,
     "Chance": 0.00015,
-    "Egg": "Cyber Egg",
-    "Tier": 3
+    "LayoutOrder": 159
   },
   "Lemon Dragon": {
-    "LayoutOrder": 233,
+    "Egg": "Fruit Egg",
     "Stats": {
       "Bubbles": 35,
-      "Seashells": 18,
-      "Gems": 2.5
+      "Gems": 2.5,
+      "Coins": 18
     },
     "Rarity": "Rare",
     "Images": {
       "Normal": "rbxassetid://93066434249555",
       "Shiny": "rbxassetid://77266061394472"
     },
-    "Chance": 30,
     "Limited": true,
-    "Egg": "Fruit Egg"
+    "Chance": 30,
+    "LayoutOrder": 233
   },
   "Night Crawler": {
-    "LayoutOrder": 56,
+    "Egg": "Nightmare Egg",
     "Stats": {
       "Bubbles": 95,
       "Coins": 105
@@ -1907,10 +2375,10 @@
       "Shiny": "rbxassetid://87587834256377"
     },
     "Chance": 7,
-    "Egg": "Nightmare Egg"
+    "LayoutOrder": 56
   },
   "Bunny Doggy": {
-    "LayoutOrder": 112,
+    "Egg": "Bunny Egg",
     "Stats": {
       "Bubbles": 50,
       "Gems": 1.5,
@@ -1921,12 +2389,63 @@
       "Normal": "rbxassetid://126178131383232",
       "Shiny": "rbxassetid://125640287196502"
     },
-    "Chance": 64,
     "Limited": true,
-    "Egg": "Bunny Egg"
+    "Chance": 64,
+    "LayoutOrder": 112
+  },
+  "D.I.Y Robot": {
+    "Stats": {
+      "Bubbles": 1700,
+      "Gems": 35,
+      "Coins": 850
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://84958238942306",
+      "Mythic": "rbxassetid://76341281929591",
+      "MythicShiny": "rbxassetid://112675300062631",
+      "Shiny": "rbxassetid://107878635229706"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 357,
+    "Tag": "Exclusive Pet"
+  },
+  "Sundae Doggy": {
+    "Egg": "Icecream Egg",
+    "Stats": {
+      "Bubbles": 20,
+      "Coins": 4
+    },
+    "Rarity": "Common",
+    "Images": {
+      "Normal": "rbxassetid://91508263053846",
+      "Shiny": "rbxassetid://131531651023571"
+    },
+    "Limited": true,
+    "Chance": 63.9,
+    "LayoutOrder": 222
+  },
+  "Overlord Plushie": {
+    "Stats": {
+      "Bubbles": 4000,
+      "Gems": 80,
+      "Coins": 1500
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://118973131137075",
+      "Mythic": "rbxassetid://108146984299667",
+      "MythicShiny": "rbxassetid://73244864876639",
+      "Shiny": "rbxassetid://106846885916855"
+    },
+    "Limited": true,
+    "Chance": 8e-7,
+    "LayoutOrder": 244,
+    "Tag": "Secret Bounty"
   },
   "ROUND": {
-    "LayoutOrder": 75,
+    "Egg": "Silly Egg",
     "Stats": {
       "Bubbles": 1500,
       "Gems": 22,
@@ -1942,11 +2461,62 @@
     "Limited": true,
     "Tier": 3,
     "Chance": 0.0004,
-    "Egg": "Silly Egg",
-    "Tag": "😂Silly😂"
+    "LayoutOrder": 75,
+    "Tag": "ðŸ˜‚SillyðŸ˜‚"
+  },
+  "Super Trophy": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 5200,
+      "Gems": 112,
+      "Coins": 4550
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://80833877210104",
+      "Mythic": "rbxassetid://107886146343356",
+      "MythicShiny": "rbxassetid://127672122926575",
+      "Shiny": "rbxassetid://139120411324692"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.000001,
+    "LayoutOrder": 367
+  },
+  "Bumble Bee": {
+    "Egg": "Bee Egg",
+    "Stats": {
+      "Bubbles": 25,
+      "Coins": 6
+    },
+    "Rarity": "Common",
+    "Images": {
+      "Normal": "rbxassetid://134995043336831",
+      "Shiny": "rbxassetid://107881625250043"
+    },
+    "Limited": true,
+    "Chance": 65,
+    "LayoutOrder": 379
+  },
+  "Super Pufferfish": {
+    "Stats": {
+      "Bubbles": 6200,
+      "Gems": 125,
+      "Coins": 5200
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://128471631363124",
+      "Mythic": "rbxassetid://135312792265247",
+      "MythicShiny": "rbxassetid://108504982598405",
+      "Shiny": "rbxassetid://125042573892981"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 378
   },
   "Ice Kitty": {
-    "LayoutOrder": 11,
+    "Egg": "Iceshard Egg",
     "Stats": {
       "Bubbles": 4,
       "Coins": 3
@@ -1957,10 +2527,10 @@
       "Shiny": "rbxassetid://108038404921084"
     },
     "Chance": 30,
-    "Egg": "Iceshard Egg"
+    "LayoutOrder": 11
   },
   "Emerald Golem": {
-    "LayoutOrder": 22,
+    "Egg": "Spikey Egg",
     "Stats": {
       "Bubbles": 45,
       "Coins": 25
@@ -1972,16 +2542,34 @@
       "MythicShiny": "rbxassetid://76908143137824",
       "Shiny": "rbxassetid://130080332987186"
     },
+    "Tier": 1,
     "Chance": 0.5,
-    "Egg": "Spikey Egg",
-    "Tier": 1
+    "LayoutOrder": 22
+  },
+  "Pearl Goddess": {
+    "Stats": {
+      "Bubbles": 1750,
+      "Gems": 35,
+      "Coins": 900
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://77855394965775",
+      "Mythic": "rbxassetid://107125253577696",
+      "MythicShiny": "rbxassetid://84054678305406",
+      "Shiny": "rbxassetid://91677309485144"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 375,
+    "Tag": "Exclusive Pet"
   },
   "Fossilus": {
-    "LayoutOrder": 255,
+    "Egg": "Fossil Egg",
     "Stats": {
       "Bubbles": 800,
-      "Seashells": 75,
-      "Gems": 18
+      "Gems": 18,
+      "Coins": 75
     },
     "Rarity": "Legendary",
     "Images": {
@@ -1990,28 +2578,79 @@
       "MythicShiny": "rbxassetid://132216237092252",
       "Shiny": "rbxassetid://124054694204497"
     },
-    "Chance": 0.02,
-    "Egg": "Fossil Egg",
     "Limited": true,
-    "Tier": 2
+    "Tier": 2,
+    "Chance": 0.02,
+    "LayoutOrder": 255
+  },
+  "Dowodle Pile": {
+    "Stats": {
+      "Bubbles": 2000,
+      "Gems": 40,
+      "Coins": 1000
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://72734736984620",
+      "Shiny": "rbxassetid://131737186146419"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 359,
+    "Tag": "Exclusive Pet"
   },
   "Pirate Kitty": {
-    "LayoutOrder": 263,
+    "Egg": "Pirate Egg",
     "Stats": {
       "Bubbles": 25,
-      "Seashells": 6
+      "Coins": 6
     },
     "Rarity": "Common",
     "Images": {
       "Normal": "rbxassetid://81090912302581",
       "Shiny": "rbxassetid://87905430880701"
     },
-    "Chance": 90,
     "Limited": true,
-    "Egg": "Pirate Egg"
+    "Chance": 90,
+    "LayoutOrder": 263
+  },
+  "Giant Robot": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 7500,
+      "Gems": 175,
+      "Coins": 6000
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://73140237943286",
+      "Mythic": "rbxassetid://115702680039567",
+      "MythicShiny": "rbxassetid://84938125136660",
+      "Shiny": "rbxassetid://94170378376249"
+    },
+    "Limited": true,
+    "Infinity": true,
+    "Tier": 3,
+    "Chance": 2.5e-9,
+    "LayoutOrder": 372
+  },
+  "Demon Angel": {
+    "Egg": "Underworld Egg",
+    "Stats": {
+      "Bubbles": 130,
+      "Tickets": 140
+    },
+    "Rarity": "Rare",
+    "Images": {
+      "Normal": "rbxassetid://117340224666898",
+      "Shiny": "rbxassetid://82921018674809"
+    },
+    "Limited": true,
+    "Chance": 30,
+    "LayoutOrder": 177
   },
   "Parasite": {
-    "LayoutOrder": 142,
+    "Egg": "Series 1 Egg",
     "Stats": {
       "Bubbles": 980,
       "Gems": 18,
@@ -2027,11 +2666,29 @@
     "Limited": true,
     "Tier": 1,
     "Chance": 0.1,
-    "Egg": "Series 1 Egg",
+    "LayoutOrder": 142,
     "Tag": "Series 1"
   },
+  "Avernus": {
+    "Stats": {
+      "Bubbles": 1900,
+      "Gems": 35,
+      "Coins": 2600
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://101820906833807",
+      "Mythic": "rbxassetid://113077553823335",
+      "MythicShiny": "rbxassetid://105994587891116",
+      "Shiny": "rbxassetid://121235836455795"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 84,
+    "Tag": "Season 1"
+  },
   "Yellow Fox": {
-    "LayoutOrder": 63,
+    "Egg": "Rainbow Egg",
     "Stats": {
       "Bubbles": 120,
       "Gems": 1.75,
@@ -2043,10 +2700,10 @@
       "Shiny": "rbxassetid://133884608297595"
     },
     "Chance": 7,
-    "Egg": "Rainbow Egg"
+    "LayoutOrder": 63
   },
   "Game Doggy": {
-    "LayoutOrder": 145,
+    "Egg": "Showman Egg",
     "Stats": {
       "Bubbles": 1,
       "Tickets": 1.1
@@ -2057,10 +2714,48 @@
       "Shiny": "rbxassetid://107491835763520"
     },
     "Chance": 55,
-    "Egg": "Showman Egg"
+    "LayoutOrder": 145
+  },
+  "Fallen Angel": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 5350,
+      "Gems": 114,
+      "Coins": 4600
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://110933503984219",
+      "Mythic": "rbxassetid://113931418458861",
+      "MythicShiny": "rbxassetid://85928841404575",
+      "Shiny": "rbxassetid://83124930319125"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 7.5e-7,
+    "LayoutOrder": 368
+  },
+  "Diamond Overlord": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 5100,
+      "Gems": 110,
+      "Coins": 4500
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://86647850626124",
+      "Mythic": "rbxassetid://111455756740541",
+      "MythicShiny": "rbxassetid://82390597228536",
+      "Shiny": "rbxassetid://76058422066314"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.000003,
+    "LayoutOrder": 366
   },
   "Dark Bat": {
-    "LayoutOrder": 30,
+    "Egg": "Crystal Egg",
     "Stats": {
       "Bubbles": 25,
       "Coins": 12
@@ -2071,10 +2766,29 @@
       "Shiny": "rbxassetid://80134626584546"
     },
     "Chance": 29.9,
-    "Egg": "Crystal Egg"
+    "LayoutOrder": 30
+  },
+  "Glitch": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 3500,
+      "Gems": 75,
+      "Coins": 3600
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://86855837175524",
+      "Mythic": "rbxassetid://122368587979370",
+      "MythicShiny": "rbxassetid://94005364806117",
+      "Shiny": "rbxassetid://81000276099122"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.00005,
+    "LayoutOrder": 365
   },
   "Diamond Serpent": {
-    "LayoutOrder": 130,
+    "Egg": "100M Egg",
     "Stats": {
       "Bubbles": 600,
       "Gems": 12,
@@ -2087,13 +2801,83 @@
       "MythicShiny": "rbxassetid://76876858250583",
       "Shiny": "rbxassetid://133778634002878"
     },
-    "Chance": 0.04,
-    "Egg": "100M Egg",
     "Limited": true,
-    "Tier": 1
+    "Tier": 1,
+    "Chance": 0.04,
+    "LayoutOrder": 130
+  },
+  "King Mush": {
+    "Stats": {
+      "Bubbles": 4600,
+      "Gems": 100,
+      "Coins": 4000
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://125533929552979",
+      "Mythic": "rbxassetid://87441881139690",
+      "MythicShiny": "rbxassetid://122608179960996",
+      "Shiny": "rbxassetid://90625690575784"
+    },
+    "Limited": true,
+    "Chance": 0.00000285,
+    "LayoutOrder": 343
+  },
+  "Darkness": {
+    "Egg": "Dark Egg",
+    "Stats": {
+      "Bubbles": 2900,
+      "Gems": 55,
+      "Coins": 2800
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://86665037421293",
+      "Mythic": "rbxassetid://134490643137871",
+      "MythicShiny": "rbxassetid://93385752946390",
+      "Shiny": "rbxassetid://126742860574606"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0001,
+    "LayoutOrder": 287
+  },
+  "Platinum Dualcorn": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 2900,
+      "Gems": 38,
+      "Coins": 2150
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://100411838858715",
+      "Mythic": "rbxassetid://115037012611943",
+      "MythicShiny": "rbxassetid://101376968358409",
+      "Shiny": "rbxassetid://116053470442899"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.002,
+    "LayoutOrder": 363
+  },
+  "Dementor Tophat": {
+    "Stats": {
+      "Bubbles": 6500,
+      "Gems": 125,
+      "Coins": 5500
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://83613218264314",
+      "Shiny": "rbxassetid://121907320729337"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 334
   },
   "Ruby Golem": {
-    "LayoutOrder": 19,
+    "Egg": "Spikey Egg",
     "Stats": {
       "Bubbles": 4,
       "Coins": 5
@@ -2104,10 +2888,10 @@
       "Shiny": "rbxassetid://76036527489917"
     },
     "Chance": 20,
-    "Egg": "Spikey Egg"
+    "LayoutOrder": 19
   },
   "Bronze Bunny": {
-    "LayoutOrder": 127,
+    "Egg": "100M Egg",
     "Stats": {
       "Bubbles": 60,
       "Gems": 1.8,
@@ -2118,12 +2902,12 @@
       "Normal": "rbxassetid://113213527955425",
       "Shiny": "rbxassetid://83519311440715"
     },
-    "Chance": 64,
     "Limited": true,
-    "Egg": "100M Egg"
+    "Chance": 64,
+    "LayoutOrder": 127
   },
   "Royal Guardian": {
-    "LayoutOrder": 205,
+    "Egg": "Chance Egg",
     "Stats": {
       "Bubbles": 3900,
       "Gems": 85,
@@ -2136,12 +2920,11 @@
       "MythicShiny": "rbxassetid://97197795445737",
       "Shiny": "rbxassetid://104507361092477"
     },
+    "Tier": 3,
     "Chance": 5e-7,
-    "Egg": "Chance Egg",
-    "Tier": 3
+    "LayoutOrder": 205
   },
   "Patronus": {
-    "LayoutOrder": 100,
     "Stats": {
       "Bubbles": 2300,
       "Gems": 50,
@@ -2154,12 +2937,13 @@
       "MythicShiny": "rbxassetid://121702391632093",
       "Shiny": "rbxassetid://138338380491055"
     },
-    "Chance": 0.01,
     "Limited": true,
+    "Chance": 0.01,
+    "LayoutOrder": 100,
     "Tag": "Golden Mystery Box"
   },
   "Manicorn": {
-    "LayoutOrder": 68,
+    "Egg": "Aura Egg",
     "Stats": {
       "Bubbles": 185,
       "Coins": 250
@@ -2169,13 +2953,65 @@
       "Normal": "rbxassetid://125187740011203",
       "Shiny": "rbxassetid://136834173199830"
     },
-    "Chance": 30,
-    "Egg": "Aura Egg",
     "Limited": true,
+    "Chance": 30,
+    "LayoutOrder": 68,
     "Tag": "Aura"
   },
+  "Paragon": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 1300,
+      "Gems": 25,
+      "Coins": 1000
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://78100924206879",
+      "Mythic": "rbxassetid://125447159448278",
+      "MythicShiny": "rbxassetid://106042661499230",
+      "Shiny": "rbxassetid://138065958421682"
+    },
+    "Limited": true,
+    "Tier": 1,
+    "Chance": 0.035,
+    "LayoutOrder": 362
+  },
+  "Lady Federation": {
+    "Egg": "Federation Egg",
+    "Stats": {
+      "Bubbles": 1500,
+      "Gems": 30,
+      "Coins": 750
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://93725317566212",
+      "Shiny": "rbxassetid://90239606967284"
+    },
+    "Limited": true,
+    "Tier": 1,
+    "Chance": 12.5,
+    "LayoutOrder": 354,
+    "Tag": "Exclusive Pet"
+  },
+  "Winged Doggy": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 25,
+      "Coins": 6
+    },
+    "Rarity": "Common",
+    "Images": {
+      "Normal": "rbxassetid://134212807772990",
+      "Shiny": "rbxassetid://89602221122511"
+    },
+    "Limited": true,
+    "Chance": 64,
+    "LayoutOrder": 360
+  },
   "Crimson Butterfly": {
-    "LayoutOrder": 178,
+    "Egg": "Underworld Egg",
     "Stats": {
       "Bubbles": 650,
       "Gems": 14,
@@ -2188,17 +3024,17 @@
       "MythicShiny": "rbxassetid://131950699145280",
       "Shiny": "rbxassetid://82721652736276"
     },
-    "Chance": 0.05,
-    "Egg": "Underworld Egg",
     "Limited": true,
-    "Tier": 1
+    "Tier": 1,
+    "Chance": 0.05,
+    "LayoutOrder": 178
   },
   "Chocolate Sundae Champion": {
-    "LayoutOrder": 230,
+    "Egg": "Icecream Egg",
     "Stats": {
       "Bubbles": 3800,
-      "Seashells": 1500,
-      "Gems": 80
+      "Gems": 80,
+      "Coins": 1500
     },
     "Rarity": "Secret",
     "Images": {
@@ -2207,13 +3043,46 @@
       "MythicShiny": "rbxassetid://130170094115762",
       "Shiny": "rbxassetid://71593193452628"
     },
-    "Chance": 0.000002,
-    "Egg": "Icecream Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.000002,
+    "LayoutOrder": 230
+  },
+  "Eternal Heart": {
+    "Stats": {
+      "Bubbles": 4750,
+      "Gems": 95,
+      "Coins": 4000
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://129003361309759",
+      "Shiny": "rbxassetid://112358935967342"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 374
+  },
+  "Jawbreaker Elemental": {
+    "Stats": {
+      "Bubbles": 1300,
+      "Gems": 26,
+      "Coins": 650
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://134586935993105",
+      "Mythic": "rbxassetid://120336257422474",
+      "MythicShiny": "rbxassetid://100321112452715",
+      "Shiny": "rbxassetid://77826141719718"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 358,
+    "Tag": "Exclusive Pet"
   },
   "Happy Dice": {
-    "LayoutOrder": 173,
+    "Egg": "Game Egg",
     "Stats": {
       "Bubbles": 195,
       "Tickets": 130
@@ -2223,12 +3092,12 @@
       "Normal": "rbxassetid://123053322701010",
       "Shiny": "rbxassetid://111037834995435"
     },
-    "Chance": 10,
     "Limited": true,
-    "Egg": "Game Egg"
+    "Chance": 10,
+    "LayoutOrder": 173
   },
   "Stone Gargoyle": {
-    "LayoutOrder": 153,
+    "Egg": "Mining Egg",
     "Stats": {
       "Bubbles": 785,
       "Gems": 9,
@@ -2241,16 +3110,15 @@
       "MythicShiny": "rbxassetid://136984425928222",
       "Shiny": "rbxassetid://118449202987348"
     },
+    "Tier": 2,
     "Chance": 0.005,
-    "Egg": "Mining Egg",
-    "Tier": 2
+    "LayoutOrder": 153
   },
   "Crystal Teddy": {
-    "LayoutOrder": 270,
     "Stats": {
       "Bubbles": 1500,
-      "Seashells": 150,
-      "Gems": 27
+      "Gems": 27,
+      "Coins": 150
     },
     "Rarity": "Legendary",
     "Images": {
@@ -2259,12 +3127,49 @@
       "MythicShiny": "rbxassetid://120948656338740",
       "Shiny": "rbxassetid://102781136298922"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 270,
+    "Tag": "Exclusive Pet"
+  },
+  "Bee Bee Bee": {
+    "Egg": "Bee Egg",
+    "Stats": {
+      "Bubbles": 3750,
+      "Gems": 75,
+      "Coins": 3700
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://86177122893343",
+      "Mythic": "rbxassetid://126219270019459",
+      "MythicShiny": "rbxassetid://138001976760358",
+      "Shiny": "rbxassetid://97611528840594"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0001,
+    "LayoutOrder": 383
+  },
+  "Earl Federation": {
+    "Egg": "Federation Egg",
+    "Stats": {
+      "Bubbles": 1500,
+      "Gems": 30,
+      "Coins": 750
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://72023142067184",
+      "Shiny": "rbxassetid://131894820500594"
+    },
+    "Limited": true,
+    "Tier": 1,
+    "Chance": 12.5,
+    "LayoutOrder": 356,
     "Tag": "Exclusive Pet"
   },
   "Umbra": {
-    "LayoutOrder": 87,
     "Stats": {
       "Bubbles": 975,
       "Gems": 15.5,
@@ -2276,14 +3181,32 @@
       "Shiny": "rbxassetid://84695727888175"
     },
     "Chance": 100,
+    "LayoutOrder": 87,
     "Tag": "Reward Pet"
   },
+  "Countess Federation": {
+    "Egg": "Federation Egg",
+    "Stats": {
+      "Bubbles": 1500,
+      "Gems": 30,
+      "Coins": 750
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://96723152686824",
+      "Shiny": "rbxassetid://107533282813670"
+    },
+    "Limited": true,
+    "Tier": 1,
+    "Chance": 12.5,
+    "LayoutOrder": 355,
+    "Tag": "Exclusive Pet"
+  },
   "Dreamscape": {
-    "LayoutOrder": 251,
     "Stats": {
       "Bubbles": 1350,
-      "Seashells": 125,
-      "Gems": 25
+      "Gems": 25,
+      "Coins": 125
     },
     "Rarity": "Legendary",
     "Images": {
@@ -2292,12 +3215,27 @@
       "MythicShiny": "rbxassetid://94576981252234",
       "Shiny": "rbxassetid://138264107056992"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 251,
     "Tag": "Exclusive Pet"
   },
+  "Cerberus": {
+    "Stats": {
+      "Bubbles": 2150,
+      "Gems": 42,
+      "Coins": 2600
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://134425768030839",
+      "Shiny": "rbxassetid://117483329191111"
+    },
+    "Chance": 100,
+    "LayoutOrder": 208
+  },
   "Hologram Dragon": {
-    "LayoutOrder": 196,
+    "Egg": "Neon Egg",
     "Stats": {
       "Bubbles": 135,
       "Gems": 2.5,
@@ -2309,25 +3247,132 @@
       "Shiny": "rbxassetid://113364795162921"
     },
     "Chance": 30,
-    "Egg": "Neon Egg"
+    "LayoutOrder": 196
+  },
+  "Duke Federation": {
+    "Egg": "Federation Egg",
+    "Stats": {
+      "Bubbles": 1500,
+      "Gems": 30,
+      "Coins": 750
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://114666309354893",
+      "Shiny": "rbxassetid://76106561638946"
+    },
+    "Limited": true,
+    "Tier": 1,
+    "Chance": 12.5,
+    "LayoutOrder": 352,
+    "Tag": "Exclusive Pet"
+  },
+  "Void Crystal Dragon": {
+    "Egg": "Voidcrystal Egg",
+    "Stats": {
+      "Bubbles": 4800,
+      "Gems": 105,
+      "Coins": 4250
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://89019139113171",
+      "Mythic": "rbxassetid://90697557940682",
+      "MythicShiny": "rbxassetid://81009945040958",
+      "Shiny": "rbxassetid://81181502683491"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.000001,
+    "LayoutOrder": 297
+  },
+  "Archduchess Federation": {
+    "Egg": "Federation Egg",
+    "Stats": {
+      "Bubbles": 1500,
+      "Gems": 30,
+      "Coins": 750
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://117767011491288",
+      "Shiny": "rbxassetid://114637391054392"
+    },
+    "Limited": true,
+    "Tier": 1,
+    "Chance": 12.5,
+    "LayoutOrder": 351,
+    "Tag": "Exclusive Pet"
   },
   "Researcher Doggy": {
-    "LayoutOrder": 252,
+    "Egg": "Fossil Egg",
     "Stats": {
       "Bubbles": 25,
-      "Seashells": 6
+      "Coins": 6
     },
     "Rarity": "Common",
     "Images": {
       "Normal": "rbxassetid://82445942334699",
       "Shiny": "rbxassetid://119122326939829"
     },
-    "Chance": 64,
     "Limited": true,
-    "Egg": "Fossil Egg"
+    "Chance": 64,
+    "LayoutOrder": 252
+  },
+  "Duchess Federation": {
+    "Egg": "Federation Egg",
+    "Stats": {
+      "Bubbles": 1500,
+      "Gems": 30,
+      "Coins": 750
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://122814423075117",
+      "Shiny": "rbxassetid://79702450863635"
+    },
+    "Limited": true,
+    "Tier": 1,
+    "Chance": 12.5,
+    "LayoutOrder": 350,
+    "Tag": "Exclusive Pet"
+  },
+  "Starry Lamb": {
+    "Egg": "Season 2 Egg",
+    "Stats": {
+      "Bubbles": 195,
+      "Coins": 265
+    },
+    "Rarity": "Epic",
+    "Images": {
+      "Normal": "rbxassetid://129047181207186",
+      "Shiny": "rbxassetid://115966365794799"
+    },
+    "Limited": true,
+    "Chance": 10,
+    "LayoutOrder": 162,
+    "Tag": "Season 2"
+  },
+  "Patriotic Soul": {
+    "Stats": {
+      "Bubbles": 1700,
+      "Gems": 35,
+      "Coins": 850
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://112873016079025",
+      "Mythic": "rbxassetid://124969349634252",
+      "MythicShiny": "rbxassetid://140655638392893",
+      "Shiny": "rbxassetid://95233847307736"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 347,
+    "Tag": "Exclusive Pet"
   },
   "Red Golem": {
-    "LayoutOrder": 61,
+    "Egg": "Rainbow Egg",
     "Stats": {
       "Bubbles": 45,
       "Gems": 1.2,
@@ -2339,10 +3384,137 @@
       "Shiny": "rbxassetid://92272547987214"
     },
     "Chance": 60,
-    "Egg": "Rainbow Egg"
+    "LayoutOrder": 61
+  },
+  "King Kitty": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 5700,
+      "Gems": 115,
+      "Coins": 4700
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://80278483596781",
+      "Mythic": "rbxassetid://94482515769275",
+      "MythicShiny": "rbxassetid://102012406503481",
+      "Shiny": "rbxassetid://102582177424036"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 1e-7,
+    "LayoutOrder": 370
+  },
+  "Radiant Crystal Dragon": {
+    "Egg": "Voidcrystal Egg",
+    "Stats": {
+      "Bubbles": 4800,
+      "Gems": 105,
+      "Coins": 4250
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://80006729738469",
+      "Mythic": "rbxassetid://72455929098500",
+      "MythicShiny": "rbxassetid://86465039369219",
+      "Shiny": "rbxassetid://96985684193941"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.000001,
+    "LayoutOrder": 296
+  },
+  "Super Hexarium": {
+    "Egg": "500M Egg",
+    "Stats": {
+      "Bubbles": 3350,
+      "Gems": 70,
+      "Coins": 3400
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://140027769044783",
+      "Mythic": "rbxassetid://126589259181084",
+      "MythicShiny": "rbxassetid://119510723900286",
+      "Shiny": "rbxassetid://136148458275929"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0001,
+    "LayoutOrder": 364
+  },
+  "Soul of Plant": {
+    "Egg": "Season 4 Egg",
+    "Stats": {
+      "Bubbles": 3750,
+      "Gems": 80,
+      "Coins": 3600
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://71368488811009",
+      "Mythic": "rbxassetid://117010643240415",
+      "MythicShiny": "rbxassetid://98957833982005",
+      "Shiny": "rbxassetid://128766908680758"
+    },
+    "Limited": true,
+    "Tier": 2,
+    "Chance": 0.01,
+    "LayoutOrder": 342,
+    "Tag": "Season 4"
+  },
+  "Black Rain Frog": {
+    "Egg": "Season 4 Egg",
+    "Stats": {
+      "Bubbles": 40,
+      "Coins": 4
+    },
+    "Rarity": "Rare",
+    "Images": {
+      "Normal": "rbxassetid://78525628860954",
+      "Shiny": "rbxassetid://75310456247640"
+    },
+    "Limited": true,
+    "Chance": 90,
+    "LayoutOrder": 339,
+    "Tag": "Season 4"
+  },
+  "Lucid Leaf": {
+    "Stats": {
+      "Bubbles": 5000,
+      "Gems": 110,
+      "Coins": 4400
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://99561934913519",
+      "Mythic": "rbxassetid://108108017182666",
+      "MythicShiny": "rbxassetid://115084887751569",
+      "Shiny": "rbxassetid://84475371261758"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 338
+  },
+  "Lovely Rose": {
+    "Stats": {
+      "Bubbles": 3400,
+      "Gems": 65,
+      "Coins": 3500
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://117659802454250",
+      "Mythic": "rbxassetid://126833857400708",
+      "MythicShiny": "rbxassetid://120241866948798",
+      "Shiny": "rbxassetid://92783839165221"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 337
   },
   "Bear": {
-    "LayoutOrder": 4,
+    "Egg": "Common Egg",
     "Stats": {
       "Bubbles": 2,
       "Coins": 1.5
@@ -2353,10 +3525,56 @@
       "Shiny": "rbxassetid://104297025162106"
     },
     "Chance": 5,
-    "Egg": "Common Egg"
+    "LayoutOrder": 4
+  },
+  "Big Bee": {
+    "Stats": {
+      "Bubbles": 1450,
+      "Gems": 30,
+      "Coins": 70
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://82025064752579",
+      "Shiny": "rbxassetid://125347518453862"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 336,
+    "Tag": "Season 4"
+  },
+  "Dragon Tophat": {
+    "Stats": {
+      "Bubbles": 5300,
+      "Gems": 107,
+      "Coins": 4400
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://100645063256238",
+      "Shiny": "rbxassetid://77642307285146"
+    },
+    "Chance": 100,
+    "LayoutOrder": 332
+  },
+  "Honeycomb Blast": {
+    "Stats": {
+      "Bubbles": 1200,
+      "Gems": 20,
+      "Coins": 50
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://85544430144810",
+      "Shiny": "rbxassetid://72109446025871"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 335,
+    "Tag": "Season 4"
   },
   "Angel Bunny": {
-    "LayoutOrder": 114,
+    "Egg": "Bunny Egg",
     "Stats": {
       "Bubbles": 95,
       "Coins": 105
@@ -2366,12 +3584,45 @@
       "Normal": "rbxassetid://100484343035283",
       "Shiny": "rbxassetid://84536350949982"
     },
-    "Chance": 3,
     "Limited": true,
-    "Egg": "Bunny Egg"
+    "Chance": 3,
+    "LayoutOrder": 114
+  },
+  "Kitty Tophat": {
+    "Stats": {
+      "Bubbles": 5100,
+      "Gems": 107,
+      "Coins": 4400
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://131269812850114",
+      "Shiny": "rbxassetid://105815556218381"
+    },
+    "Chance": 100,
+    "LayoutOrder": 330
+  },
+  "Shinigami": {
+    "Egg": "Dark Egg",
+    "Stats": {
+      "Bubbles": 4600,
+      "Gems": 100,
+      "Coins": 4000
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://71160474087777",
+      "Mythic": "rbxassetid://110833558930183",
+      "MythicShiny": "rbxassetid://100283922824934",
+      "Shiny": "rbxassetid://80332630135186"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.000001,
+    "LayoutOrder": 288
   },
   "Ore Golem": {
-    "LayoutOrder": 151,
+    "Egg": "Mining Egg",
     "Stats": {
       "Bubbles": 135,
       "Tickets": 70
@@ -2382,10 +3633,25 @@
       "Shiny": "rbxassetid://78142132254185"
     },
     "Chance": 3,
-    "Egg": "Mining Egg"
+    "LayoutOrder": 151
+  },
+  "Martian Kitty": {
+    "Egg": "Cyber Egg",
+    "Stats": {
+      "Bubbles": 115,
+      "Gems": 2.5,
+      "Tickets": 125
+    },
+    "Rarity": "Unique",
+    "Images": {
+      "Normal": "rbxassetid://95865916555707",
+      "Shiny": "rbxassetid://128126875255924"
+    },
+    "Chance": 30,
+    "LayoutOrder": 155
   },
   "Chance Dragon": {
-    "LayoutOrder": 203,
+    "Egg": "Chance Egg",
     "Stats": {
       "Bubbles": 210,
       "Tickets": 140
@@ -2396,10 +3662,10 @@
       "Shiny": "rbxassetid://95720020096683"
     },
     "Chance": 10,
-    "Egg": "Chance Egg"
+    "LayoutOrder": 203
   },
   "Cardinal Bunny": {
-    "LayoutOrder": 117,
+    "Egg": "Bunny Egg",
     "Stats": {
       "Bubbles": 1425,
       "Gems": 28,
@@ -2412,13 +3678,169 @@
       "MythicShiny": "rbxassetid://96170721611701",
       "Shiny": "rbxassetid://81866848585659"
     },
-    "Chance": 0.0001,
-    "Egg": "Bunny Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.0001,
+    "LayoutOrder": 117
+  },
+  "Da Cool Trio": {
+    "Egg": "July4th Egg",
+    "Stats": {
+      "Bubbles": 6500,
+      "Gems": 125,
+      "Coins": 5500
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://118449459003357",
+      "Shiny": "rbxassetid://84157122170916"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 2e-8,
+    "LayoutOrder": 325
+  },
+  "Doggy Tophat": {
+    "Stats": {
+      "Bubbles": 5000,
+      "Gems": 107,
+      "Coins": 4400
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://102507717185606",
+      "Shiny": "rbxassetid://130335773944006"
+    },
+    "Chance": 100,
+    "LayoutOrder": 329
+  },
+  "Liberty": {
+    "Egg": "July4th Egg",
+    "Stats": {
+      "Bubbles": 5000,
+      "Gems": 107,
+      "Coins": 4400
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://115655687836962",
+      "Mythic": "rbxassetid://96802518075008",
+      "MythicShiny": "rbxassetid://109086629944904",
+      "Shiny": "rbxassetid://120964894066464"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.000001,
+    "LayoutOrder": 323
+  },
+  "Star Lord": {
+    "Egg": "July4th Egg",
+    "Stats": {
+      "Bubbles": 3250,
+      "Gems": 65,
+      "Coins": 3200
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://109325517336152",
+      "Mythic": "rbxassetid://123885257812082",
+      "MythicShiny": "rbxassetid://115065268132055",
+      "Shiny": "rbxassetid://91871197565509"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0001,
+    "LayoutOrder": 322
+  },
+  "Patriotic Shock": {
+    "Egg": "July4th Egg",
+    "Stats": {
+      "Bubbles": 2750,
+      "Gems": 38,
+      "Coins": 2000
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://127874280456327",
+      "Mythic": "rbxassetid://91844679639630",
+      "MythicShiny": "rbxassetid://126450222559873",
+      "Shiny": "rbxassetid://115715560290252"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0015,
+    "LayoutOrder": 321
+  },
+  "Eagle": {
+    "Egg": "July4th Egg",
+    "Stats": {
+      "Bubbles": 100,
+      "Coins": 15
+    },
+    "Rarity": "Rare",
+    "Images": {
+      "Normal": "rbxassetid://91485415126157",
+      "Shiny": "rbxassetid://100918162000716"
+    },
+    "Limited": true,
+    "Chance": 30,
+    "LayoutOrder": 318
+  },
+  "Void Crystal Parasite": {
+    "Egg": "Voidcrystal Egg",
+    "Stats": {
+      "Bubbles": 2600,
+      "Gems": 38,
+      "Coins": 1850
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://90334958112971",
+      "Mythic": "rbxassetid://101906145207899",
+      "MythicShiny": "rbxassetid://70698353781943",
+      "Shiny": "rbxassetid://112834999344280"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0015,
+    "LayoutOrder": 294
+  },
+  "Pyramidium": {
+    "Egg": "Voidcrystal Egg",
+    "Stats": {
+      "Bubbles": 5500,
+      "Gems": 110,
+      "Coins": 4500
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://126288904929672",
+      "Mythic": "rbxassetid://87804852800430",
+      "MythicShiny": "rbxassetid://83911665036776",
+      "Shiny": "rbxassetid://81716408985737"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 1e-7,
+    "LayoutOrder": 315
+  },
+  "Seagull": {
+    "Egg": "Beach Egg",
+    "Stats": {
+      "Bubbles": 1,
+      "Coins": 2
+    },
+    "Rarity": "Common",
+    "Images": {
+      "Normal": "rbxassetid://124738597084576",
+      "Shiny": "rbxassetid://79136354239885"
+    },
+    "Limited": true,
+    "Chance": 35,
+    "LayoutOrder": 220
   },
   "Enlightened Kitty": {
-    "LayoutOrder": 77,
+    "Egg": "Season 1 Egg",
     "Stats": {
       "Bubbles": 35,
       "Coins": 15
@@ -2428,13 +3850,50 @@
       "Normal": "rbxassetid://122259669272525",
       "Shiny": "rbxassetid://116308362826258"
     },
-    "Chance": 90,
-    "Egg": "Season 1 Egg",
     "Limited": true,
+    "Chance": 90,
+    "LayoutOrder": 77,
     "Tag": "Season 1"
   },
+  "Queen Kitty": {
+    "Stats": {
+      "Bubbles": 3400,
+      "Gems": 72,
+      "Coins": 3100
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://137170650603605",
+      "Mythic": "rbxassetid://95790796143151",
+      "MythicShiny": "rbxassetid://122591618247775",
+      "Shiny": "rbxassetid://133386500280616"
+    },
+    "Limited": true,
+    "Chance": 0.00000125,
+    "LayoutOrder": 192,
+    "Tag": "Secret Bounty"
+  },
+  "Seraphic Bruh": {
+    "Egg": "Bruh Egg",
+    "Stats": {
+      "Bubbles": 3250,
+      "Gems": 65,
+      "Coins": 3100
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://92244282867653",
+      "Mythic": "rbxassetid://77088126345122",
+      "MythicShiny": "rbxassetid://94607590992866",
+      "Shiny": "rbxassetid://124740589602537"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0001,
+    "LayoutOrder": 312
+  },
   "Hatchling": {
-    "LayoutOrder": 108,
+    "Egg": "Pastel Egg",
     "Stats": {
       "Bubbles": 190,
       "Coins": 265
@@ -2444,16 +3903,16 @@
       "Normal": "rbxassetid://119285236689048",
       "Shiny": "rbxassetid://126418352072171"
     },
-    "Chance": 2.25,
     "Limited": true,
-    "Egg": "Pastel Egg"
+    "Chance": 2.25,
+    "LayoutOrder": 108
   },
   "Fossil Ghost": {
-    "LayoutOrder": 257,
+    "Egg": "Fossil Egg",
     "Stats": {
       "Bubbles": 2750,
-      "Seashells": 850,
-      "Gems": 45
+      "Gems": 45,
+      "Coins": 850
     },
     "Rarity": "Legendary",
     "Images": {
@@ -2462,13 +3921,13 @@
       "MythicShiny": "rbxassetid://98399293178832",
       "Shiny": "rbxassetid://114201362491904"
     },
-    "Chance": 0.00005,
-    "Egg": "Fossil Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.00005,
+    "LayoutOrder": 257
   },
   "Green Hydra": {
-    "LayoutOrder": 58,
+    "Egg": "Nightmare Egg",
     "Stats": {
       "Bubbles": 600,
       "Gems": 10,
@@ -2481,12 +3940,11 @@
       "MythicShiny": "rbxassetid://85937441131538",
       "Shiny": "rbxassetid://86848062315342"
     },
+    "Tier": 2,
     "Chance": 0.004,
-    "Egg": "Nightmare Egg",
-    "Tier": 2
+    "LayoutOrder": 58
   },
   "Easter Fluffle": {
-    "LayoutOrder": 135,
     "Stats": {
       "Bubbles": 1075,
       "Gems": 19,
@@ -2497,12 +3955,13 @@
       "Normal": "rbxassetid://111160641904639",
       "Shiny": "rbxassetid://133620067717567"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 135,
     "Tag": "2025 Egg Hunt"
   },
   "Hexarium": {
-    "LayoutOrder": 65,
+    "Egg": "Rainbow Egg",
     "Stats": {
       "Bubbles": 1025,
       "Gems": 16.5,
@@ -2515,12 +3974,60 @@
       "MythicShiny": "rbxassetid://89823280118528",
       "Shiny": "rbxassetid://128101936411240"
     },
+    "Tier": 3,
     "Chance": 0.001,
-    "Egg": "Rainbow Egg",
-    "Tier": 3
+    "LayoutOrder": 65
+  },
+  "Inferno Cube": {
+    "Egg": "Hell Egg",
+    "Stats": {
+      "Bubbles": 480,
+      "Gems": 6,
+      "Coins": 520
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://118510130470134",
+      "Mythic": "rbxassetid://108444291064240",
+      "MythicShiny": "rbxassetid://97641653727155",
+      "Shiny": "rbxassetid://79182973159304"
+    },
+    "Tier": 1,
+    "Chance": 0.025,
+    "LayoutOrder": 52
+  },
+  "Bruh Cat": {
+    "Egg": "Bruh Egg",
+    "Stats": {
+      "Bubbles": 100,
+      "Coins": 15
+    },
+    "Rarity": "Rare",
+    "Images": {
+      "Normal": "rbxassetid://105388455369960",
+      "Shiny": "rbxassetid://111653954473794"
+    },
+    "Limited": true,
+    "Chance": 30,
+    "LayoutOrder": 308
+  },
+  "Bruh": {
+    "Egg": "Bruh Egg",
+    "Stats": {
+      "Bubbles": 25,
+      "Coins": 6
+    },
+    "Rarity": "Common",
+    "Images": {
+      "Normal": "rbxassetid://102512297499278",
+      "Shiny": "rbxassetid://92978048183915"
+    },
+    "Limited": true,
+    "Chance": 64,
+    "LayoutOrder": 307
   },
   "Fancy Demon": {
-    "LayoutOrder": 172,
+    "Egg": "Game Egg",
     "Stats": {
       "Bubbles": 40,
       "Tickets": 20
@@ -2530,12 +4037,11 @@
       "Normal": "rbxassetid://119579347444394",
       "Shiny": "rbxassetid://118660693089214"
     },
-    "Chance": 90,
     "Limited": true,
-    "Egg": "Game Egg"
+    "Chance": 90,
+    "LayoutOrder": 172
   },
   "Demonic Dogcat": {
-    "LayoutOrder": 92,
     "Stats": {
       "Bubbles": 2225,
       "Gems": 45,
@@ -2547,10 +4053,45 @@
       "Shiny": "rbxassetid://126169873370845"
     },
     "Chance": 100,
+    "LayoutOrder": 92,
     "Tag": "Milestone Pet"
   },
+  "Bruhodle": {
+    "Stats": {
+      "Bubbles": 1650,
+      "Gems": 35,
+      "Coins": 850
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://105131589927374",
+      "Mythic": "rbxassetid://103534103196398",
+      "MythicShiny": "rbxassetid://96201369594735",
+      "Shiny": "rbxassetid://123015534707634"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 306,
+    "Tag": "Exclusive Pet"
+  },
+  "Bunny Cone": {
+    "Egg": "Icecream Egg",
+    "Stats": {
+      "Bubbles": 35,
+      "Gems": 2.5,
+      "Coins": 6
+    },
+    "Rarity": "Rare",
+    "Images": {
+      "Normal": "rbxassetid://99138669960309",
+      "Shiny": "rbxassetid://80348626133883"
+    },
+    "Limited": true,
+    "Chance": 30,
+    "LayoutOrder": 223
+  },
   "Lunar Serpent": {
-    "LayoutOrder": 39,
+    "Egg": "Lunar Egg",
     "Stats": {
       "Bubbles": 195,
       "Gems": 2,
@@ -2563,12 +4104,64 @@
       "MythicShiny": "rbxassetid://124361472417361",
       "Shiny": "rbxassetid://71831968325737"
     },
+    "Tier": 1,
     "Chance": 0.25,
-    "Egg": "Lunar Egg",
-    "Tier": 1
+    "LayoutOrder": 39
+  },
+  "Excabot": {
+    "Stats": {
+      "Bubbles": 1600,
+      "Gems": 30,
+      "Coins": 800
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://128875113312567",
+      "Mythic": "rbxassetid://129664198937490",
+      "MythicShiny": "rbxassetid://81499563561257",
+      "Shiny": "rbxassetid://135514526403640"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 304,
+    "Tag": "Exclusive Pet"
+  },
+  "Broken TV": {
+    "Stats": {
+      "Bubbles": 1200,
+      "Gems": 24,
+      "Coins": 600
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://135332226376849",
+      "Mythic": "rbxassetid://134697739443794",
+      "MythicShiny": "rbxassetid://73216175518671",
+      "Shiny": "rbxassetid://138634157741052"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 303,
+    "Tag": "Exclusive Pet"
+  },
+  "Dream Catcher": {
+    "Stats": {
+      "Bubbles": 3400,
+      "Gems": 70,
+      "Coins": 3400
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://109460816965347",
+      "Mythic": "rbxassetid://102103226236828",
+      "MythicShiny": "rbxassetid://120752066707631",
+      "Shiny": "rbxassetid://93051424452149"
+    },
+    "Limited": true,
+    "Chance": 0.1,
+    "LayoutOrder": 301
   },
   "Sir Doggyton": {
-    "LayoutOrder": 188,
     "Stats": {
       "Bubbles": 2025,
       "Gems": 40,
@@ -2581,10 +4174,28 @@
       "MythicShiny": "rbxassetid://104208913219293",
       "Shiny": "rbxassetid://132536969974047"
     },
-    "Chance": 100
+    "Chance": 100,
+    "LayoutOrder": 188
+  },
+  "True Titan": {
+    "Stats": {
+      "Bubbles": 5000,
+      "Gems": 110,
+      "Coins": 4400
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://109077944704202",
+      "Mythic": "rbxassetid://113653635228323",
+      "MythicShiny": "rbxassetid://130281227808198",
+      "Shiny": "rbxassetid://86980816167938"
+    },
+    "Limited": true,
+    "Chance": 4e-7,
+    "LayoutOrder": 300
   },
   "Diamond Hexarium": {
-    "LayoutOrder": 131,
+    "Egg": "100M Egg",
     "Stats": {
       "Bubbles": 1250,
       "Gems": 23,
@@ -2597,13 +4208,13 @@
       "MythicShiny": "rbxassetid://70570552386283",
       "Shiny": "rbxassetid://82003997046134"
     },
-    "Chance": 0.002,
-    "Egg": "100M Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.002,
+    "LayoutOrder": 131
   },
   "Cave Mole": {
-    "LayoutOrder": 150,
+    "Egg": "Mining Egg",
     "Stats": {
       "Bubbles": 75,
       "Tickets": 40
@@ -2614,10 +4225,10 @@
       "Shiny": "rbxassetid://80686832114260"
     },
     "Chance": 7,
-    "Egg": "Mining Egg"
+    "LayoutOrder": 150
   },
   "Magma Bear": {
-    "LayoutOrder": 26,
+    "Egg": "Magma Egg",
     "Stats": {
       "Bubbles": 18,
       "Coins": 15
@@ -2628,10 +4239,10 @@
       "Shiny": "rbxassetid://126554662078892"
     },
     "Chance": 7,
-    "Egg": "Magma Egg"
+    "LayoutOrder": 26
   },
   "NULLVoid": {
-    "LayoutOrder": 47,
+    "Egg": "Void Egg",
     "Stats": {
       "Bubbles": 1350,
       "Gems": 24,
@@ -2644,12 +4255,29 @@
       "MythicShiny": "rbxassetid://116241431469732",
       "Shiny": "rbxassetid://132769360414533"
     },
+    "Tier": 3,
     "Chance": 0.0001,
-    "Egg": "Void Egg",
-    "Tier": 3
+    "LayoutOrder": 47
+  },
+  "Golden Retreiver": {
+    "Stats": {
+      "Bubbles": 4800,
+      "Gems": 105,
+      "Coins": 4250
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://127335123723290",
+      "Mythic": "rbxassetid://82892185379480",
+      "MythicShiny": "rbxassetid://87344982655598",
+      "Shiny": "rbxassetid://126521070337235"
+    },
+    "Limited": true,
+    "Chance": 0.000001,
+    "LayoutOrder": 299
   },
   "Ring Master": {
-    "LayoutOrder": 204,
+    "Egg": "Chance Egg",
     "Stats": {
       "Bubbles": 1950,
       "Gems": 40,
@@ -2662,12 +4290,29 @@
       "MythicShiny": "rbxassetid://107448565956594",
       "Shiny": "rbxassetid://116060388002599"
     },
+    "Tier": 3,
     "Chance": 0.001,
-    "Egg": "Chance Egg",
-    "Tier": 3
+    "LayoutOrder": 204
+  },
+  "Dark Guardian": {
+    "Stats": {
+      "Bubbles": 5400,
+      "Gems": 115,
+      "Coins": 4700
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://131614372671387",
+      "Mythic": "rbxassetid://133809543962409",
+      "MythicShiny": "rbxassetid://75026411056522",
+      "Shiny": "rbxassetid://118842646196200"
+    },
+    "Limited": true,
+    "Chance": 4e-7,
+    "LayoutOrder": 345
   },
   "Ground Golem": {
-    "LayoutOrder": 213,
+    "Egg": "Series 2 Egg",
     "Stats": {
       "Bubbles": 40,
       "Tickets": 20
@@ -2677,17 +4322,119 @@
       "Normal": "rbxassetid://112609148711239",
       "Shiny": "rbxassetid://127936550770801"
     },
-    "Chance": 90,
-    "Egg": "Series 2 Egg",
     "Limited": true,
+    "Chance": 90,
+    "LayoutOrder": 213,
     "Tag": "Series 2"
   },
-  "Ancient One": {
-    "LayoutOrder": 248,
+  "Void Scorpion": {
+    "Egg": "Voidcrystal Egg",
+    "Stats": {
+      "Bubbles": 3150,
+      "Gems": 60,
+      "Coins": 3000
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://119942883948921",
+      "Mythic": "rbxassetid://140031041679670",
+      "MythicShiny": "rbxassetid://83956895003592",
+      "Shiny": "rbxassetid://123557713595354"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0001,
+    "LayoutOrder": 295
+  },
+  "Voidsight": {
+    "Egg": "Voidcrystal Egg",
+    "Stats": {
+      "Bubbles": 220,
+      "Coins": 25
+    },
+    "Rarity": "Epic",
+    "Images": {
+      "Normal": "rbxassetid://115079710727032",
+      "Shiny": "rbxassetid://82687987006359"
+    },
+    "Limited": true,
+    "Chance": 3,
+    "LayoutOrder": 292
+  },
+  "Light Kitty": {
+    "Egg": "Voidcrystal Egg",
+    "Stats": {
+      "Bubbles": 100,
+      "Coins": 15
+    },
+    "Rarity": "Rare",
+    "Images": {
+      "Normal": "rbxassetid://88110391702067",
+      "Shiny": "rbxassetid://139600455210166"
+    },
+    "Limited": true,
+    "Chance": 30,
+    "LayoutOrder": 291
+  },
+  "The Moon": {
     "Stats": {
       "Bubbles": 2700,
-      "Seashells": 800,
-      "Gems": 55
+      "Gems": 65,
+      "Tickets": 3750
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://94569604837030",
+      "Shiny": "rbxassetid://99528811017451"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 217,
+    "Tag": "Competitive"
+  },
+  "Patriotic Robot": {
+    "Egg": "July4th Egg",
+    "Stats": {
+      "Bubbles": 5700,
+      "Gems": 115,
+      "Coins": 4700
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://123368883332844",
+      "Mythic": "rbxassetid://117019306148668",
+      "MythicShiny": "rbxassetid://80359593852817",
+      "Shiny": "rbxassetid://127323685235371"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 1e-7,
+    "LayoutOrder": 324
+  },
+  "Voidflame": {
+    "Egg": "Dark Egg",
+    "Stats": {
+      "Bubbles": 2400,
+      "Gems": 35,
+      "Coins": 1600
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://78741917831719",
+      "Mythic": "rbxassetid://91942554484841",
+      "MythicShiny": "rbxassetid://100409220344763",
+      "Shiny": "rbxassetid://122536458875907"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0015,
+    "LayoutOrder": 286
+  },
+  "Ancient One": {
+    "Stats": {
+      "Bubbles": 2700,
+      "Gems": 55,
+      "Coins": 800
     },
     "Rarity": "Legendary",
     "Images": {
@@ -2696,15 +4443,35 @@
       "MythicShiny": "rbxassetid://137733978147033",
       "Shiny": "rbxassetid://126250367370888"
     },
+    "Limited": true,
     "Chance": 100,
-    "Limited": true
+    "LayoutOrder": 248
+  },
+  "EVIL": {
+    "Egg": "Dark Egg",
+    "Stats": {
+      "Bubbles": 1000,
+      "Gems": 22,
+      "Coins": 850
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://83081993491500",
+      "Mythic": "rbxassetid://84144838014791",
+      "MythicShiny": "rbxassetid://119097330901053",
+      "Shiny": "rbxassetid://136864636873399"
+    },
+    "Limited": true,
+    "Tier": 2,
+    "Chance": 0.02,
+    "LayoutOrder": 285
   },
   "Chest Mimic": {
-    "LayoutOrder": 266,
+    "Egg": "Pirate Egg",
     "Stats": {
       "Bubbles": 2750,
-      "Seashells": 850,
-      "Gems": 45
+      "Gems": 45,
+      "Coins": 850
     },
     "Rarity": "Legendary",
     "Images": {
@@ -2713,13 +4480,51 @@
       "MythicShiny": "rbxassetid://97760000047031",
       "Shiny": "rbxassetid://122250936755450"
     },
-    "Chance": 0.01,
-    "Egg": "Pirate Egg",
     "Limited": true,
-    "Tier": 2
+    "Tier": 2,
+    "Chance": 0.01,
+    "LayoutOrder": 266
+  },
+  "Dragonfruit": {
+    "Egg": "Fruit Egg",
+    "Stats": {
+      "Bubbles": 4200,
+      "Gems": 90,
+      "Coins": 2000
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://136939712343243",
+      "Mythic": "rbxassetid://116030266325049",
+      "MythicShiny": "rbxassetid://100501379429873",
+      "Shiny": "rbxassetid://134524660968000"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 2e-7,
+    "LayoutOrder": 238
+  },
+  "Immortal One": {
+    "Egg": "Light Egg",
+    "Stats": {
+      "Bubbles": 5500,
+      "Gems": 125,
+      "Coins": 5000
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://111331044970153",
+      "Mythic": "rbxassetid://84123547994928",
+      "MythicShiny": "rbxassetid://140462741374001",
+      "Shiny": "rbxassetid://77080182198487"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 5e-8,
+    "LayoutOrder": 282
   },
   "Emerald Wolf": {
-    "LayoutOrder": 183,
+    "Egg": "200M Egg",
     "Stats": {
       "Bubbles": 130,
       "Gems": 2.2,
@@ -2730,16 +4535,88 @@
       "Normal": "rbxassetid://70582788554359",
       "Shiny": "rbxassetid://120045936302928"
     },
-    "Chance": 30,
     "Limited": true,
-    "Egg": "200M Egg"
+    "Chance": 30,
+    "LayoutOrder": 183
+  },
+  "Shimmering Shard": {
+    "Egg": "Light Egg",
+    "Stats": {
+      "Bubbles": 4600,
+      "Gems": 100,
+      "Coins": 4000
+    },
+    "Rarity": "Secret",
+    "Images": {
+      "Normal": "rbxassetid://140524527556083",
+      "Mythic": "rbxassetid://113182557356167",
+      "MythicShiny": "rbxassetid://71363211629567",
+      "Shiny": "rbxassetid://90131192230270"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.000001,
+    "LayoutOrder": 281
+  },
+  "Radiant Elemental": {
+    "Egg": "Light Egg",
+    "Stats": {
+      "Bubbles": 2400,
+      "Gems": 35,
+      "Coins": 1600
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://96306052243327",
+      "Mythic": "rbxassetid://89121648625419",
+      "MythicShiny": "rbxassetid://121183972210189",
+      "Shiny": "rbxassetid://113591369726290"
+    },
+    "Limited": true,
+    "Tier": 3,
+    "Chance": 0.0015,
+    "LayoutOrder": 279
+  },
+  "Light Cube": {
+    "Egg": "Light Egg",
+    "Stats": {
+      "Bubbles": 1000,
+      "Gems": 22,
+      "Coins": 850
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://86073522116046",
+      "Mythic": "rbxassetid://88491582611352",
+      "MythicShiny": "rbxassetid://129974200387692",
+      "Shiny": "rbxassetid://121192560889587"
+    },
+    "Limited": true,
+    "Tier": 2,
+    "Chance": 0.02,
+    "LayoutOrder": 278
+  },
+  "Light Orb": {
+    "Egg": "Light Egg",
+    "Stats": {
+      "Bubbles": 100,
+      "Coins": 15
+    },
+    "Rarity": "Rare",
+    "Images": {
+      "Normal": "rbxassetid://102767647148687",
+      "Shiny": "rbxassetid://91773267118282"
+    },
+    "Limited": true,
+    "Chance": 30,
+    "LayoutOrder": 277
   },
   "Mint Sundae Champion": {
-    "LayoutOrder": 228,
+    "Egg": "Icecream Egg",
     "Stats": {
       "Bubbles": 3800,
-      "Seashells": 1500,
-      "Gems": 80
+      "Gems": 80,
+      "Coins": 1500
     },
     "Rarity": "Secret",
     "Images": {
@@ -2748,13 +4625,12 @@
       "MythicShiny": "rbxassetid://134090985493663",
       "Shiny": "rbxassetid://95538067451707"
     },
-    "Chance": 0.000002,
-    "Egg": "Icecream Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.000002,
+    "LayoutOrder": 228
   },
   "Dice Split": {
-    "LayoutOrder": 171,
     "Stats": {
       "Bubbles": 1750,
       "Gems": 32,
@@ -2768,10 +4644,59 @@
       "Shiny": "rbxassetid://128103253336307"
     },
     "Chance": 0.01,
+    "LayoutOrder": 171,
     "Tag": "Dice Chest"
   },
+  "Light Doggy": {
+    "Egg": "Light Egg",
+    "Stats": {
+      "Bubbles": 25,
+      "Coins": 6
+    },
+    "Rarity": "Common",
+    "Images": {
+      "Normal": "rbxassetid://134596924916143",
+      "Shiny": "rbxassetid://125684967508514"
+    },
+    "Limited": true,
+    "Chance": 65,
+    "LayoutOrder": 276
+  },
+  "Captain Bruh": {
+    "Stats": {
+      "Bubbles": 3200,
+      "Gems": 65,
+      "Coins": 3000
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://132904054950453",
+      "Shiny": "rbxassetid://118820482047254"
+    },
+    "Chance": 100,
+    "LayoutOrder": 275,
+    "Tag": "Bruh Quest Reward"
+  },
+  "Dowominus": {
+    "Stats": {
+      "Bubbles": 1500,
+      "Gems": 27,
+      "Coins": 150
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://136793520981301",
+      "Mythic": "rbxassetid://100390594184464",
+      "MythicShiny": "rbxassetid://113472031557868",
+      "Shiny": "rbxassetid://70815154192636"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 273,
+    "Tag": "Exclusive Pet"
+  },
   "Dark Phoenix": {
-    "LayoutOrder": 45,
+    "Egg": "Void Egg",
     "Stats": {
       "Bubbles": 350,
       "Gems": 4.5,
@@ -2784,12 +4709,12 @@
       "MythicShiny": "rbxassetid://97837991194893",
       "Shiny": "rbxassetid://96543725025034"
     },
+    "Tier": 1,
     "Chance": 0.05,
-    "Egg": "Void Egg",
-    "Tier": 1
+    "LayoutOrder": 45
   },
   "MAN FACE GOD": {
-    "LayoutOrder": 71,
+    "Egg": "Aura Egg",
     "Stats": {
       "Bubbles": 2600,
       "Gems": 45,
@@ -2805,30 +4730,48 @@
     "Limited": true,
     "Tier": 3,
     "Chance": 0.0001,
-    "Egg": "Aura Egg",
+    "LayoutOrder": 71,
     "Tag": "Aura"
   },
+  "Galaxium": {
+    "Stats": {
+      "Bubbles": 1100,
+      "Gems": 22,
+      "Coins": 100
+    },
+    "Rarity": "Legendary",
+    "Images": {
+      "Normal": "rbxassetid://122130293536833",
+      "Mythic": "rbxassetid://100671015460269",
+      "MythicShiny": "rbxassetid://71583451791657",
+      "Shiny": "rbxassetid://77510399477891"
+    },
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 272,
+    "Tag": "Exclusive Pet"
+  },
   "Doggy Pile": {
-    "LayoutOrder": 271,
     "Stats": {
       "Bubbles": 2500,
-      "Seashells": 700,
-      "Gems": 35
+      "Gems": 35,
+      "Coins": 700
     },
     "Rarity": "Legendary",
     "Images": {
       "Normal": "rbxassetid://136232522819010",
       "Shiny": "rbxassetid://121472227938556"
     },
+    "Limited": true,
     "Chance": 100,
-    "Limited": true
+    "LayoutOrder": 271
   },
   "Fire Basilisk": {
-    "LayoutOrder": 262,
+    "Egg": "Fossil Egg",
     "Stats": {
       "Bubbles": 4750,
-      "Seashells": 2500,
-      "Gems": 100
+      "Gems": 100,
+      "Coins": 2500
     },
     "Rarity": "Secret",
     "Images": {
@@ -2837,17 +4780,16 @@
       "MythicShiny": "rbxassetid://86978762264411",
       "Shiny": "rbxassetid://85984406556579"
     },
-    "Chance": 1e-7,
-    "Egg": "Fossil Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 1e-7,
+    "LayoutOrder": 262
   },
   "Carrot Pufferfish": {
-    "LayoutOrder": 269,
     "Stats": {
       "Bubbles": 1100,
-      "Seashells": 100,
-      "Gems": 22
+      "Gems": 22,
+      "Coins": 100
     },
     "Rarity": "Legendary",
     "Images": {
@@ -2856,12 +4798,13 @@
       "MythicShiny": "rbxassetid://137063739338154",
       "Shiny": "rbxassetid://138990361148894"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 269,
     "Tag": "Exclusive Pet"
   },
   "Angel": {
-    "LayoutOrder": 31,
+    "Egg": "Crystal Egg",
     "Stats": {
       "Bubbles": 35,
       "Coins": 20
@@ -2872,14 +4815,14 @@
       "Shiny": "rbxassetid://99959000304515"
     },
     "Chance": 7,
-    "Egg": "Crystal Egg"
+    "LayoutOrder": 31
   },
   "Captain Monkey": {
-    "LayoutOrder": 265,
+    "Egg": "Pirate Egg",
     "Stats": {
       "Bubbles": 1500,
-      "Seashells": 300,
-      "Gems": 35
+      "Gems": 35,
+      "Coins": 300
     },
     "Rarity": "Legendary",
     "Images": {
@@ -2888,13 +4831,13 @@
       "MythicShiny": "rbxassetid://128362577169234",
       "Shiny": "rbxassetid://105769121092521"
     },
-    "Chance": 0.1,
-    "Egg": "Pirate Egg",
     "Limited": true,
-    "Tier": 1
+    "Tier": 1,
+    "Chance": 0.1,
+    "LayoutOrder": 265
   },
   "Unicorn": {
-    "LayoutOrder": 33,
+    "Egg": "Crystal Egg",
     "Stats": {
       "Bubbles": 155,
       "Gems": 1.4,
@@ -2907,31 +4850,31 @@
       "MythicShiny": "rbxassetid://124445223953228",
       "Shiny": "rbxassetid://115354210206795"
     },
+    "Tier": 1,
     "Chance": 0.25,
-    "Egg": "Crystal Egg",
-    "Tier": 1
+    "LayoutOrder": 33
   },
   "Strawhat Dragon": {
-    "LayoutOrder": 264,
+    "Egg": "Pirate Egg",
     "Stats": {
       "Bubbles": 100,
-      "Seashells": 15
+      "Coins": 15
     },
     "Rarity": "Epic",
     "Images": {
       "Normal": "rbxassetid://98527190135898",
       "Shiny": "rbxassetid://73403613496150"
     },
-    "Chance": 9.9,
     "Limited": true,
-    "Egg": "Pirate Egg"
+    "Chance": 9.9,
+    "LayoutOrder": 264
   },
   "Ice Basilisk": {
-    "LayoutOrder": 260,
+    "Egg": "Fossil Egg",
     "Stats": {
       "Bubbles": 4750,
-      "Seashells": 2500,
-      "Gems": 100
+      "Gems": 100,
+      "Coins": 2500
     },
     "Rarity": "Secret",
     "Images": {
@@ -2940,13 +4883,13 @@
       "MythicShiny": "rbxassetid://92957408100512",
       "Shiny": "rbxassetid://101044252278631"
     },
-    "Chance": 1e-7,
-    "Egg": "Fossil Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 1e-7,
+    "LayoutOrder": 260
   },
   "Magma Doggy": {
-    "LayoutOrder": 23,
+    "Egg": "Magma Egg",
     "Stats": {
       "Bubbles": 11,
       "Coins": 6
@@ -2957,14 +4900,14 @@
       "Shiny": "rbxassetid://139545348445279"
     },
     "Chance": 45,
-    "Egg": "Magma Egg"
+    "LayoutOrder": 23
   },
   "Air Basilisk": {
-    "LayoutOrder": 259,
+    "Egg": "Fossil Egg",
     "Stats": {
       "Bubbles": 4750,
-      "Seashells": 2500,
-      "Gems": 100
+      "Gems": 100,
+      "Coins": 2500
     },
     "Rarity": "Secret",
     "Images": {
@@ -2973,33 +4916,35 @@
       "MythicShiny": "rbxassetid://78115323049103",
       "Shiny": "rbxassetid://99346272180580"
     },
+    "Limited": true,
+    "Tier": 3,
     "Chance": 1e-7,
-    "Egg": "Fossil Egg",
-    "Limited": true,
-    "Tier": 3
+    "LayoutOrder": 259
   },
-  "Starry Lamb": {
-    "LayoutOrder": 162,
+  "Archduke Federation": {
+    "Egg": "Federation Egg",
     "Stats": {
-      "Bubbles": 195,
-      "Coins": 265
+      "Bubbles": 1500,
+      "Gems": 30,
+      "Coins": 750
     },
-    "Rarity": "Epic",
+    "Rarity": "Legendary",
     "Images": {
-      "Normal": "rbxassetid://129047181207186",
-      "Shiny": "rbxassetid://115966365794799"
+      "Normal": "rbxassetid://93908519397596",
+      "Shiny": "rbxassetid://112027509460904"
     },
-    "Chance": 10,
-    "Egg": "Season 2 Egg",
     "Limited": true,
-    "Tag": "Season 2"
+    "Tier": 1,
+    "Chance": 12.5,
+    "LayoutOrder": 349,
+    "Tag": "Exclusive Pet"
   },
   "Bug Amber": {
-    "LayoutOrder": 256,
+    "Egg": "Fossil Egg",
     "Stats": {
       "Bubbles": 2000,
-      "Seashells": 225,
-      "Gems": 30
+      "Gems": 30,
+      "Coins": 225
     },
     "Rarity": "Legendary",
     "Images": {
@@ -3008,13 +4953,13 @@
       "MythicShiny": "rbxassetid://102346513279290",
       "Shiny": "rbxassetid://91952928147822"
     },
-    "Chance": 0.001,
-    "Egg": "Fossil Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.001,
+    "LayoutOrder": 256
   },
   "Ice Dragon": {
-    "LayoutOrder": 16,
+    "Egg": "Iceshard Egg",
     "Stats": {
       "Bubbles": 15,
       "Coins": 10
@@ -3025,26 +4970,25 @@
       "Shiny": "rbxassetid://94422986737598"
     },
     "Chance": 3,
-    "Egg": "Iceshard Egg"
+    "LayoutOrder": 16
   },
   "Monkey": {
-    "LayoutOrder": 253,
+    "Egg": "Fossil Egg",
     "Stats": {
       "Bubbles": 40,
-      "Seashells": 8,
-      "Gems": 2.5
+      "Gems": 2.5,
+      "Coins": 8
     },
     "Rarity": "Rare",
     "Images": {
       "Normal": "rbxassetid://98203228334026",
       "Shiny": "rbxassetid://101113703848033"
     },
-    "Chance": 30,
     "Limited": true,
-    "Egg": "Fossil Egg"
+    "Chance": 30,
+    "LayoutOrder": 253
   },
   "Luminosity": {
-    "LayoutOrder": 168,
     "Stats": {
       "Bubbles": 3050,
       "Gems": 70,
@@ -3057,12 +5001,13 @@
       "MythicShiny": "rbxassetid://131286750513616",
       "Shiny": "rbxassetid://132609819087086"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 168,
     "Tag": "Season 2"
   },
   "Ethereal Bunny": {
-    "LayoutOrder": 116,
+    "Egg": "Bunny Egg",
     "Stats": {
       "Bubbles": 1075,
       "Gems": 19,
@@ -3075,17 +5020,16 @@
       "MythicShiny": "rbxassetid://121742387238600",
       "Shiny": "rbxassetid://130649018220152"
     },
-    "Chance": 0.001,
-    "Egg": "Bunny Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.001,
+    "LayoutOrder": 116
   },
   "Rigby": {
-    "LayoutOrder": 250,
     "Stats": {
       "Bubbles": 1000,
-      "Seashells": 80,
-      "Gems": 20
+      "Gems": 20,
+      "Coins": 80
     },
     "Rarity": "Legendary",
     "Images": {
@@ -3094,12 +5038,13 @@
       "MythicShiny": "rbxassetid://94264863763418",
       "Shiny": "rbxassetid://80628871267513"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 250,
     "Tag": "Exclusive Pet"
   },
   "Wolf": {
-    "LayoutOrder": 7,
+    "Egg": "Spotted Egg",
     "Stats": {
       "Bubbles": 2.1,
       "Coins": 2
@@ -3110,14 +5055,13 @@
       "Shiny": "rbxassetid://139001767570631"
     },
     "Chance": 25,
-    "Egg": "Spotted Egg"
+    "LayoutOrder": 7
   },
   "Monolith": {
-    "LayoutOrder": 249,
     "Stats": {
       "Bubbles": 4200,
-      "Seashells": 2000,
-      "Gems": 90
+      "Gems": 90,
+      "Coins": 2000
     },
     "Rarity": "Secret",
     "Images": {
@@ -3126,45 +5070,42 @@
       "MythicShiny": "rbxassetid://128013440489350",
       "Shiny": "rbxassetid://85067019516525"
     },
-    "Chance": 100,
-    "Limited": true
-  },
-  "Overlord Plushie": {
-    "LayoutOrder": 244,
-    "Stats": {
-      "Bubbles": 4000,
-      "Seashells": 1500,
-      "Gems": 80
-    },
-    "Rarity": "Secret",
-    "Images": {
-      "Normal": "rbxassetid://118973131137075",
-      "Mythic": "rbxassetid://108146984299667",
-      "MythicShiny": "rbxassetid://73244864876639",
-      "Shiny": "rbxassetid://106846885916855"
-    },
-    "Chance": 8e-7,
     "Limited": true,
-    "Tag": "Secret Bounty"
+    "Chance": 100,
+    "LayoutOrder": 249
+  },
+  "Baby Blue Bee": {
+    "Egg": "Bee Egg",
+    "Stats": {
+      "Bubbles": 100,
+      "Coins": 15
+    },
+    "Rarity": "Rare",
+    "Images": {
+      "Normal": "rbxassetid://106727038366156",
+      "Shiny": "rbxassetid://123704645999938"
+    },
+    "Limited": true,
+    "Chance": 30,
+    "LayoutOrder": 380
   },
   "Runic Prism": {
-    "LayoutOrder": 247,
     "Stats": {
       "Bubbles": 1200,
-      "Seashells": 50,
-      "Gems": 30
+      "Gems": 30,
+      "Coins": 50
     },
     "Rarity": "Legendary",
     "Images": {
       "Normal": "rbxassetid://131677443933580",
       "Shiny": "rbxassetid://108049462761252"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 247,
     "Tag": "Season 3"
   },
   "Magmas": {
-    "LayoutOrder": 169,
     "Stats": {
       "Bubbles": 2000,
       "Gems": 40,
@@ -3178,14 +5119,15 @@
       "Shiny": "rbxassetid://83592309171830"
     },
     "Chance": 100,
+    "LayoutOrder": 169,
     "Tag": "Game Prize"
   },
   "Vanilla Sundae Champion": {
-    "LayoutOrder": 229,
+    "Egg": "Icecream Egg",
     "Stats": {
       "Bubbles": 3800,
-      "Seashells": 1500,
-      "Gems": 80
+      "Gems": 80,
+      "Coins": 1500
     },
     "Rarity": "Secret",
     "Images": {
@@ -3194,29 +5136,29 @@
       "MythicShiny": "rbxassetid://135435504306531",
       "Shiny": "rbxassetid://72746337394380"
     },
-    "Chance": 0.000002,
-    "Egg": "Icecream Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.000002,
+    "LayoutOrder": 229
   },
   "Rune Guardian": {
-    "LayoutOrder": 240,
+    "Egg": "Season 3 Egg",
     "Stats": {
       "Bubbles": 210,
-      "Seashells": 30
+      "Coins": 30
     },
     "Rarity": "Epic",
     "Images": {
       "Normal": "rbxassetid://110879806024030",
       "Shiny": "rbxassetid://86986379210750"
     },
-    "Chance": 10,
-    "Egg": "Season 3 Egg",
     "Limited": true,
+    "Chance": 10,
+    "LayoutOrder": 240,
     "Tag": "Season 3"
   },
   "Neon Elemental": {
-    "LayoutOrder": 46,
+    "Egg": "Void Egg",
     "Stats": {
       "Bubbles": 430,
       "Gems": 5.5,
@@ -3229,12 +5171,12 @@
       "MythicShiny": "rbxassetid://115321521110239",
       "Shiny": "rbxassetid://75299135501237"
     },
+    "Tier": 2,
     "Chance": 0.02,
-    "Egg": "Void Egg",
-    "Tier": 2
+    "LayoutOrder": 46
   },
   "Jackpot": {
-    "LayoutOrder": 175,
+    "Egg": "Game Egg",
     "Stats": {
       "Bubbles": 3050,
       "Gems": 70,
@@ -3247,13 +5189,13 @@
       "MythicShiny": "rbxassetid://103074564849082",
       "Shiny": "rbxassetid://116720210619976"
     },
-    "Chance": 0.000005,
-    "Egg": "Game Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.000005,
+    "LayoutOrder": 175
   },
   "Paper Doggy": {
-    "LayoutOrder": 105,
+    "Egg": "Pastel Egg",
     "Stats": {
       "Bubbles": 40,
       "Coins": 36
@@ -3263,12 +5205,12 @@
       "Normal": "rbxassetid://116412942676621",
       "Shiny": "rbxassetid://107372964901806"
     },
-    "Chance": 60,
     "Limited": true,
-    "Egg": "Pastel Egg"
+    "Chance": 60,
+    "LayoutOrder": 105
   },
   "Nebula": {
-    "LayoutOrder": 164,
+    "Egg": "Season 2 Egg",
     "Stats": {
       "Bubbles": 1850,
       "Gems": 35,
@@ -3284,11 +5226,10 @@
     "Limited": true,
     "Tier": 2,
     "Chance": 0.01,
-    "Egg": "Season 2 Egg",
+    "LayoutOrder": 164,
     "Tag": "Season 2"
   },
   "Prophet": {
-    "LayoutOrder": 191,
     "Stats": {
       "Bubbles": 3500,
       "Gems": 75,
@@ -3301,12 +5242,13 @@
       "MythicShiny": "rbxassetid://76179950030552",
       "Shiny": "rbxassetid://80903272343594"
     },
-    "Chance": 4e-7,
     "Limited": true,
+    "Chance": 4e-7,
+    "LayoutOrder": 191,
     "Tag": "Secret Bounty"
   },
   "Void Bat": {
-    "LayoutOrder": 42,
+    "Egg": "Void Egg",
     "Stats": {
       "Bubbles": 43,
       "Coins": 35
@@ -3317,29 +5259,24 @@
       "Shiny": "rbxassetid://133135553484824"
     },
     "Chance": 31.9,
-    "Egg": "Void Egg"
+    "LayoutOrder": 42
   },
-  "Dragonfruit": {
-    "LayoutOrder": 238,
+  "Dark Kitty": {
+    "Egg": "Dark Egg",
     "Stats": {
-      "Bubbles": 4200,
-      "Seashells": 2000,
-      "Gems": 90
+      "Bubbles": 25,
+      "Coins": 6
     },
-    "Rarity": "Secret",
+    "Rarity": "Common",
     "Images": {
-      "Normal": "rbxassetid://136939712343243",
-      "Mythic": "rbxassetid://116030266325049",
-      "MythicShiny": "rbxassetid://100501379429873",
-      "Shiny": "rbxassetid://134524660968000"
+      "Normal": "rbxassetid://124590847637945",
+      "Shiny": "rbxassetid://130369468268567"
     },
-    "Chance": 2e-7,
-    "Egg": "Fruit Egg",
     "Limited": true,
-    "Tier": 3
+    "Chance": 65,
+    "LayoutOrder": 283
   },
   "Security System": {
-    "LayoutOrder": 209,
     "Stats": {
       "Bubbles": 2150,
       "Gems": 42,
@@ -3350,25 +5287,25 @@
       "Normal": "rbxassetid://100801467305756",
       "Shiny": "rbxassetid://75582435565995"
     },
-    "Chance": 100
+    "Chance": 100,
+    "LayoutOrder": 209
   },
   "Strawberry Doggy": {
-    "LayoutOrder": 232,
+    "Egg": "Fruit Egg",
     "Stats": {
       "Bubbles": 20,
-      "Seashells": 15
+      "Coins": 15
     },
     "Rarity": "Common",
     "Images": {
       "Normal": "rbxassetid://120719334954340",
       "Shiny": "rbxassetid://101777457596590"
     },
-    "Chance": 67,
     "Limited": true,
-    "Egg": "Fruit Egg"
+    "Chance": 67,
+    "LayoutOrder": 232
   },
   "Dowodle": {
-    "LayoutOrder": 101,
     "Stats": {
       "Bubbles": 120,
       "Gems": 1.5,
@@ -3379,16 +5316,17 @@
       "Normal": "rbxassetid://136489594823543",
       "Shiny": "rbxassetid://101671336845496"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 101,
     "Tag": "Exclusive Pet"
   },
   "Sundae Cone": {
-    "LayoutOrder": 227,
+    "Egg": "Icecream Egg",
     "Stats": {
       "Bubbles": 2600,
-      "Seashells": 750,
-      "Gems": 50
+      "Gems": 50,
+      "Coins": 750
     },
     "Rarity": "Legendary",
     "Images": {
@@ -3397,13 +5335,13 @@
       "MythicShiny": "rbxassetid://132366918399483",
       "Shiny": "rbxassetid://130276098288067"
     },
-    "Chance": 0.00008,
-    "Egg": "Icecream Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.00008,
+    "LayoutOrder": 227
   },
   "Godly Gem": {
-    "LayoutOrder": 125,
+    "Egg": "Throwback Egg",
     "Stats": {
       "Bubbles": 3200,
       "Gems": 70,
@@ -3416,29 +5354,31 @@
       "MythicShiny": "rbxassetid://126464346470111",
       "Shiny": "rbxassetid://131352042214414"
     },
+    "Limited": true,
+    "Tier": 3,
     "Chance": 4e-7,
-    "Egg": "Throwback Egg",
-    "Limited": true,
-    "Tier": 3
+    "LayoutOrder": 125
   },
-  "Bunny Cone": {
-    "LayoutOrder": 223,
+  "ROUND BRUH": {
     "Stats": {
-      "Bubbles": 35,
-      "Seashells": 6,
-      "Gems": 2.5
+      "Bubbles": 1225,
+      "Gems": 26,
+      "Coins": 650
     },
-    "Rarity": "Rare",
+    "Rarity": "Legendary",
     "Images": {
-      "Normal": "rbxassetid://99138669960309",
-      "Shiny": "rbxassetid://80348626133883"
+      "Normal": "rbxassetid://106876419309036",
+      "Mythic": "rbxassetid://138708937939597",
+      "MythicShiny": "rbxassetid://102899660564761",
+      "Shiny": "rbxassetid://95854016713670"
     },
-    "Chance": 30,
     "Limited": true,
-    "Egg": "Icecream Egg"
+    "Chance": 100,
+    "LayoutOrder": 305,
+    "Tag": "Exclusive Pet"
   },
   "Wolflord": {
-    "LayoutOrder": 187,
+    "Egg": "200M Egg",
     "Stats": {
       "Bubbles": 3350,
       "Gems": 70,
@@ -3451,62 +5391,68 @@
       "MythicShiny": "rbxassetid://73264285797253",
       "Shiny": "rbxassetid://133326318134464"
     },
+    "Limited": true,
+    "Tier": 3,
     "Chance": 0.000001,
-    "Egg": "200M Egg",
-    "Limited": true,
-    "Tier": 3
+    "LayoutOrder": 187
   },
-  "Sundae Doggy": {
-    "LayoutOrder": 222,
+  "Angel Bee": {
+    "Egg": "Bee Egg",
     "Stats": {
-      "Bubbles": 20,
-      "Seashells": 4
+      "Bubbles": 1450,
+      "Gems": 25,
+      "Coins": 1150
     },
-    "Rarity": "Common",
+    "Rarity": "Legendary",
     "Images": {
-      "Normal": "rbxassetid://91508263053846",
-      "Shiny": "rbxassetid://131531651023571"
+      "Normal": "rbxassetid://116349960207759",
+      "Mythic": "rbxassetid://93089325394200",
+      "MythicShiny": "rbxassetid://80120389356167",
+      "Shiny": "rbxassetid://112196516492245"
     },
-    "Chance": 63.9,
     "Limited": true,
-    "Egg": "Icecream Egg"
+    "Tier": 2,
+    "Chance": 0.01,
+    "LayoutOrder": 381
   },
-  "Seagull": {
-    "LayoutOrder": 220,
+  "Dogcat": {
     "Stats": {
-      "Bubbles": 1,
-      "Seashells": 2
+      "Bubbles": 5000,
+      "Gems": 108,
+      "Coins": 4350
     },
-    "Rarity": "Common",
+    "Rarity": "Secret",
     "Images": {
-      "Normal": "rbxassetid://124738597084576",
-      "Shiny": "rbxassetid://79136354239885"
+      "Normal": "rbxassetid://99281159367732",
+      "Mythic": "rbxassetid://93382691353129",
+      "MythicShiny": "rbxassetid://71248156613850",
+      "Shiny": "rbxassetid://86315615137823"
     },
-    "Chance": 35,
     "Limited": true,
-    "Egg": "Beach Egg"
+    "Chance": 100,
+    "LayoutOrder": 314
   },
   "Tourist Doggy": {
-    "LayoutOrder": 219,
+    "Egg": "Beach Egg",
     "Stats": {
       "Bubbles": 1,
-      "Seashells": 1.5
+      "Coins": 1.5
     },
     "Rarity": "Common",
     "Images": {
       "Normal": "rbxassetid://72344214522280",
       "Shiny": "rbxassetid://85846603004081"
     },
-    "Chance": 55,
     "Limited": true,
-    "Egg": "Beach Egg"
+    "Chance": 55,
+    "LayoutOrder": 219
   },
   "Pineapple Tourist": {
-    "LayoutOrder": 237,
+    "Egg": "Fruit Egg",
     "Stats": {
       "Bubbles": 2300,
-      "Seashells": 680,
-      "Gems": 45
+      "Gems": 45,
+      "Coins": 680
     },
     "Rarity": "Legendary",
     "Images": {
@@ -3515,29 +5461,31 @@
       "MythicShiny": "rbxassetid://87507876461968",
       "Shiny": "rbxassetid://79356426336189"
     },
+    "Limited": true,
+    "Tier": 3,
     "Chance": 0.00015,
-    "Egg": "Fruit Egg",
-    "Limited": true,
-    "Tier": 3
+    "LayoutOrder": 237
   },
-  "The Moon": {
-    "LayoutOrder": 217,
+  "WOMAN FACE GOD": {
     "Stats": {
-      "Bubbles": 2700,
-      "Gems": 65,
-      "Tickets": 3750
+      "Bubbles": 6000,
+      "Gems": 145,
+      "Coins": 6000
     },
-    "Rarity": "Legendary",
+    "Rarity": "Secret",
     "Images": {
-      "Normal": "rbxassetid://94569604837030",
-      "Shiny": "rbxassetid://99528811017451"
+      "Normal": "rbxassetid://74628356033179",
+      "Mythic": "rbxassetid://72005725046585",
+      "MythicShiny": "rbxassetid://72749922144235",
+      "Shiny": "rbxassetid://85683933508757"
     },
-    "Chance": 100,
+    "TerminalHidden": true,
     "Limited": true,
-    "Tag": "Competitive"
+    "Chance": 100,
+    "LayoutOrder": 289
   },
   "Sigma Serpent": {
-    "LayoutOrder": 69,
+    "Egg": "Aura Egg",
     "Stats": {
       "Bubbles": 1300,
       "Gems": 16.5,
@@ -3553,11 +5501,11 @@
     "Limited": true,
     "Tier": 2,
     "Chance": 0.01,
-    "Egg": "Aura Egg",
+    "LayoutOrder": 69,
     "Tag": "Aura"
   },
   "Water Serpent": {
-    "LayoutOrder": 215,
+    "Egg": "Series 2 Egg",
     "Stats": {
       "Bubbles": 1050,
       "Gems": 22,
@@ -3573,11 +5521,10 @@
     "Limited": true,
     "Tier": 1,
     "Chance": 0.075,
-    "Egg": "Series 2 Egg",
+    "LayoutOrder": 215,
     "Tag": "Series 2"
   },
   "Noctis": {
-    "LayoutOrder": 211,
     "Stats": {
       "Bubbles": 950,
       "Gems": 18,
@@ -3590,30 +5537,31 @@
       "MythicShiny": "rbxassetid://111707474207687",
       "Shiny": "rbxassetid://118352581213989"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 211,
     "Tag": "Exclusive Pet"
   },
-  "Queen Kitty": {
-    "LayoutOrder": 192,
+  "BRUH GOD": {
+    "Egg": "Bruh Egg",
     "Stats": {
-      "Bubbles": 3400,
-      "Gems": 72,
-      "Coins": 3100
+      "Bubbles": 5000,
+      "Gems": 108,
+      "Coins": 4350
     },
     "Rarity": "Secret",
     "Images": {
-      "Normal": "rbxassetid://137170650603605",
-      "Mythic": "rbxassetid://95790796143151",
-      "MythicShiny": "rbxassetid://122591618247775",
-      "Shiny": "rbxassetid://133386500280616"
+      "Normal": "rbxassetid://134770831073295",
+      "Mythic": "rbxassetid://123148893175682",
+      "MythicShiny": "rbxassetid://128505224919350",
+      "Shiny": "rbxassetid://91356457879715"
     },
-    "Chance": 0.00000125,
     "Limited": true,
-    "Tag": "Secret Bounty"
+    "Tier": 3,
+    "Chance": 0.00002,
+    "LayoutOrder": 313
   },
   "Enraged Phoenix": {
-    "LayoutOrder": 103,
     "Stats": {
       "Bubbles": 120,
       "Gems": 1.6,
@@ -3624,12 +5572,12 @@
       "Normal": "rbxassetid://107570455419383",
       "Shiny": "rbxassetid://113743669461335"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 103,
     "Tag": "Exclusive Pet"
   },
   "The Sun": {
-    "LayoutOrder": 218,
     "Stats": {
       "Bubbles": 3500,
       "Gems": 70,
@@ -3642,26 +5590,31 @@
       "MythicShiny": "rbxassetid://95731727893323",
       "Shiny": "rbxassetid://131314003756257"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 218,
     "Tag": "Competitive"
   },
-  "Cerberus": {
-    "LayoutOrder": 208,
+  "Lord Federation": {
+    "Egg": "Federation Egg",
     "Stats": {
-      "Bubbles": 2150,
-      "Gems": 42,
-      "Coins": 2600
+      "Bubbles": 1500,
+      "Gems": 30,
+      "Coins": 750
     },
     "Rarity": "Legendary",
     "Images": {
-      "Normal": "rbxassetid://134425768030839",
-      "Shiny": "rbxassetid://117483329191111"
+      "Normal": "rbxassetid://109055622502158",
+      "Shiny": "rbxassetid://113601432045915"
     },
-    "Chance": 100
+    "Limited": true,
+    "Tier": 1,
+    "Chance": 12.5,
+    "LayoutOrder": 353,
+    "Tag": "Exclusive Pet"
   },
   "Chronos": {
-    "LayoutOrder": 207,
+    "ChannelIgnore": true,
     "Stats": {
       "Bubbles": 4000,
       "Gems": 100,
@@ -3672,10 +5625,11 @@
       "Normal": "rbxassetid://123977114641958",
       "Shiny": "rbxassetid://94878061948211"
     },
-    "Chance": 100
+    "Chance": 100,
+    "LayoutOrder": 207
   },
   "Neon Wire Eye": {
-    "LayoutOrder": 199,
+    "Egg": "Neon Egg",
     "Stats": {
       "Bubbles": 1525,
       "Gems": 25,
@@ -3688,12 +5642,12 @@
       "MythicShiny": "rbxassetid://81999044282610",
       "Shiny": "rbxassetid://113845829936786"
     },
+    "Tier": 3,
     "Chance": 0.0015,
-    "Egg": "Neon Egg",
-    "Tier": 3
+    "LayoutOrder": 199
   },
   "Manarium": {
-    "LayoutOrder": 70,
+    "Egg": "Aura Egg",
     "Stats": {
       "Bubbles": 1500,
       "Gems": 22,
@@ -3709,11 +5663,11 @@
     "Limited": true,
     "Tier": 2,
     "Chance": 0.005,
-    "Egg": "Aura Egg",
+    "LayoutOrder": 70,
     "Tag": "Aura"
   },
   "Overseer": {
-    "LayoutOrder": 144,
+    "Egg": "Series 1 Egg",
     "Stats": {
       "Bubbles": 2300,
       "Gems": 50,
@@ -3729,11 +5683,11 @@
     "Limited": true,
     "Tier": 3,
     "Chance": 0.001,
-    "Egg": "Series 1 Egg",
+    "LayoutOrder": 144,
     "Tag": "Series 1"
   },
   "Skeletal Deer": {
-    "LayoutOrder": 55,
+    "Egg": "Nightmare Egg",
     "Stats": {
       "Bubbles": 50,
       "Coins": 52
@@ -3744,10 +5698,9 @@
       "Shiny": "rbxassetid://108708065111555"
     },
     "Chance": 29.9,
-    "Egg": "Nightmare Egg"
+    "LayoutOrder": 55
   },
   "Crescent Empress": {
-    "LayoutOrder": 83,
     "Stats": {
       "Bubbles": 1100,
       "Gems": 19,
@@ -3760,12 +5713,13 @@
       "MythicShiny": "rbxassetid://114377918544383",
       "Shiny": "rbxassetid://77931849920370"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 83,
     "Tag": "Season 1"
   },
   "Sleepy Bunny": {
-    "LayoutOrder": 161,
+    "Egg": "Season 2 Egg",
     "Stats": {
       "Bubbles": 40,
       "Coins": 20
@@ -3775,13 +5729,13 @@
       "Normal": "rbxassetid://116722260024080",
       "Shiny": "rbxassetid://80968988528542"
     },
-    "Chance": 90,
-    "Egg": "Season 2 Egg",
     "Limited": true,
+    "Chance": 90,
+    "LayoutOrder": 161,
     "Tag": "Season 2"
   },
   "Golden Golem": {
-    "LayoutOrder": 141,
+    "Egg": "Series 1 Egg",
     "Stats": {
       "Bubbles": 195,
       "Coins": 265
@@ -3791,13 +5745,13 @@
       "Normal": "rbxassetid://138026763781707",
       "Shiny": "rbxassetid://132684362621406"
     },
-    "Chance": 9.9,
-    "Egg": "Series 1 Egg",
     "Limited": true,
+    "Chance": 9.9,
+    "LayoutOrder": 141,
     "Tag": "Series 1"
   },
   "Ice Wolf": {
-    "LayoutOrder": 13,
+    "Egg": "Iceshard Egg",
     "Stats": {
       "Bubbles": 7,
       "Coins": 5
@@ -3808,10 +5762,10 @@
       "Shiny": "rbxassetid://91175593920003"
     },
     "Chance": 20,
-    "Egg": "Iceshard Egg"
+    "LayoutOrder": 13
   },
   "Disco Ball": {
-    "LayoutOrder": 197,
+    "Egg": "Neon Egg",
     "Stats": {
       "Bubbles": 200,
       "Tickets": 190
@@ -3822,10 +5776,9 @@
       "Shiny": "rbxassetid://75097202660397"
     },
     "Chance": 3,
-    "Egg": "Neon Egg"
+    "LayoutOrder": 197
   },
   "Star Charm": {
-    "LayoutOrder": 210,
     "Stats": {
       "Bubbles": 2150,
       "Gems": 42,
@@ -3839,10 +5792,11 @@
       "Shiny": "rbxassetid://133159315265868"
     },
     "Chance": 100,
+    "LayoutOrder": 210,
     "Tag": "Game Prize"
   },
   "Dinosaur": {
-    "LayoutOrder": 18,
+    "Egg": "Spikey Egg",
     "Stats": {
       "Bubbles": 3,
       "Coins": 2
@@ -3853,10 +5807,10 @@
       "Shiny": "rbxassetid://127253788491436"
     },
     "Chance": 30,
-    "Egg": "Spikey Egg"
+    "LayoutOrder": 18
   },
   "Cave Bat": {
-    "LayoutOrder": 29,
+    "Egg": "Crystal Egg",
     "Stats": {
       "Bubbles": 14,
       "Coins": 9
@@ -3867,10 +5821,10 @@
       "Shiny": "rbxassetid://115574329171258"
     },
     "Chance": 60,
-    "Egg": "Crystal Egg"
+    "LayoutOrder": 29
   },
   "Corrupt Glitch": {
-    "LayoutOrder": 186,
+    "Egg": "200M Egg",
     "Stats": {
       "Bubbles": 1950,
       "Gems": 38,
@@ -3883,13 +5837,13 @@
       "MythicShiny": "rbxassetid://92932429383097",
       "Shiny": "rbxassetid://107162390911710"
     },
-    "Chance": 0.000125,
-    "Egg": "200M Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.000125,
+    "LayoutOrder": 186
   },
   "Prismatic": {
-    "LayoutOrder": 184,
+    "Egg": "200M Egg",
     "Stats": {
       "Bubbles": 650,
       "Gems": 14,
@@ -3902,13 +5856,13 @@
       "MythicShiny": "rbxassetid://116524561767135",
       "Shiny": "rbxassetid://115656000957403"
     },
-    "Chance": 0.04,
-    "Egg": "200M Egg",
     "Limited": true,
-    "Tier": 1
+    "Tier": 1,
+    "Chance": 0.04,
+    "LayoutOrder": 184
   },
   "Gamer Boi": {
-    "LayoutOrder": 146,
+    "Egg": "Showman Egg",
     "Stats": {
       "Bubbles": 1,
       "Tickets": 1.5
@@ -3919,10 +5873,10 @@
       "Shiny": "rbxassetid://72474674070189"
     },
     "Chance": 40,
-    "Egg": "Showman Egg"
+    "LayoutOrder": 146
   },
   "Electra": {
-    "LayoutOrder": 40,
+    "Egg": "Lunar Egg",
     "Stats": {
       "Bubbles": 295,
       "Gems": 4,
@@ -3935,12 +5889,12 @@
       "MythicShiny": "rbxassetid://76505798639885",
       "Shiny": "rbxassetid://138951170227797"
     },
+    "Tier": 1,
     "Chance": 0.1,
-    "Egg": "Lunar Egg",
-    "Tier": 1
+    "LayoutOrder": 40
   },
   "King Doggy": {
-    "LayoutOrder": 5,
+    "Egg": "Common Egg",
     "Stats": {
       "Bubbles": 2750,
       "Gems": 50,
@@ -3953,12 +5907,12 @@
       "MythicShiny": "rbxassetid://137302375759932",
       "Shiny": "rbxassetid://122886742812315"
     },
+    "Tier": 3,
     "Chance": 0.000001,
-    "Egg": "Common Egg",
-    "Tier": 3
+    "LayoutOrder": 5
   },
   "Lunar Fox": {
-    "LayoutOrder": 37,
+    "Egg": "Lunar Egg",
     "Stats": {
       "Bubbles": 45,
       "Coins": 32
@@ -3969,25 +5923,28 @@
       "Shiny": "rbxassetid://96789005954849"
     },
     "Chance": 7,
-    "Egg": "Lunar Egg"
+    "LayoutOrder": 37
   },
-  "Demon Angel": {
-    "LayoutOrder": 177,
+  "Geometric Dominus": {
     "Stats": {
-      "Bubbles": 130,
-      "Tickets": 140
+      "Bubbles": 1300,
+      "Gems": 26,
+      "Coins": 650
     },
-    "Rarity": "Rare",
+    "Rarity": "Legendary",
     "Images": {
-      "Normal": "rbxassetid://117340224666898",
-      "Shiny": "rbxassetid://82921018674809"
+      "Normal": "rbxassetid://84478242130051",
+      "Mythic": "rbxassetid://83786000551040",
+      "MythicShiny": "rbxassetid://109845179620599",
+      "Shiny": "rbxassetid://90745535514934"
     },
-    "Chance": 30,
     "Limited": true,
-    "Egg": "Underworld Egg"
+    "Chance": 100,
+    "LayoutOrder": 346,
+    "Tag": "Exclusive Pet"
   },
   "Hell Demon": {
-    "LayoutOrder": 176,
+    "Egg": "Underworld Egg",
     "Stats": {
       "Bubbles": 65,
       "Gems": 1.8,
@@ -3998,12 +5955,12 @@
       "Normal": "rbxassetid://117345924701117",
       "Shiny": "rbxassetid://95736804924877"
     },
-    "Chance": 65,
     "Limited": true,
-    "Egg": "Underworld Egg"
+    "Chance": 65,
+    "LayoutOrder": 176
   },
   "Fox": {
-    "LayoutOrder": 8,
+    "Egg": "Spotted Egg",
     "Stats": {
       "Bubbles": 3,
       "Coins": 2.2
@@ -4014,10 +5971,9 @@
       "Shiny": "rbxassetid://79433017308214"
     },
     "Chance": 20,
-    "Egg": "Spotted Egg"
+    "LayoutOrder": 8
   },
   "Trio Cube": {
-    "LayoutOrder": 88,
     "Stats": {
       "Bubbles": 1400,
       "Gems": 23,
@@ -4031,32 +5987,34 @@
       "Shiny": "rbxassetid://123178696068725"
     },
     "Chance": 100,
+    "LayoutOrder": 88,
     "Tag": "Index Pet"
   },
-  "Inferno Cube": {
-    "LayoutOrder": 52,
+  "Bruh Split": {
+    "Egg": "Bruh Egg",
     "Stats": {
-      "Bubbles": 480,
-      "Gems": 6,
-      "Coins": 520
+      "Bubbles": 1100,
+      "Gems": 25,
+      "Coins": 900
     },
     "Rarity": "Legendary",
     "Images": {
-      "Normal": "rbxassetid://118510130470134",
-      "Mythic": "rbxassetid://108444291064240",
-      "MythicShiny": "rbxassetid://97641653727155",
-      "Shiny": "rbxassetid://79182973159304"
+      "Normal": "rbxassetid://91628840379180",
+      "Mythic": "rbxassetid://111643284817091",
+      "MythicShiny": "rbxassetid://84284272277115",
+      "Shiny": "rbxassetid://110753254166353"
     },
-    "Chance": 0.025,
-    "Egg": "Hell Egg",
-    "Tier": 1
+    "Limited": true,
+    "Tier": 2,
+    "Chance": 0.01,
+    "LayoutOrder": 310
   },
   "Glyph Warrior": {
-    "LayoutOrder": 242,
+    "Egg": "Season 3 Egg",
     "Stats": {
       "Bubbles": 3500,
-      "Seashells": 1000,
-      "Gems": 80
+      "Gems": 80,
+      "Coins": 1000
     },
     "Rarity": "Legendary",
     "Images": {
@@ -4068,11 +6026,11 @@
     "Limited": true,
     "Tier": 2,
     "Chance": 0.01,
-    "Egg": "Season 3 Egg",
+    "LayoutOrder": 242,
     "Tag": "Season 3"
   },
   "Inferno Dragon": {
-    "LayoutOrder": 28,
+    "Egg": "Magma Egg",
     "Stats": {
       "Bubbles": 75,
       "Gems": 1.35,
@@ -4085,12 +6043,11 @@
       "MythicShiny": "rbxassetid://94747349710125",
       "Shiny": "rbxassetid://89388252512800"
     },
+    "Tier": 1,
     "Chance": 0.25,
-    "Egg": "Magma Egg",
-    "Tier": 1
+    "LayoutOrder": 28
   },
   "Dusk": {
-    "LayoutOrder": 165,
     "Stats": {
       "Bubbles": 975,
       "Gems": 15.5,
@@ -4101,12 +6058,13 @@
       "Normal": "rbxassetid://89066931313193",
       "Shiny": "rbxassetid://126914744556808"
     },
-    "Chance": 100,
     "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 165,
     "Tag": "Season 2"
   },
   "Moon Deer": {
-    "LayoutOrder": 163,
+    "Egg": "Season 2 Egg",
     "Stats": {
       "Bubbles": 1000,
       "Gems": 22,
@@ -4122,15 +6080,15 @@
     "Limited": true,
     "Tier": 1,
     "Chance": 0.5,
-    "Egg": "Season 2 Egg",
+    "LayoutOrder": 163,
     "Tag": "Season 2"
   },
   "Kraken": {
-    "LayoutOrder": 258,
+    "Egg": "Fossil Egg",
     "Stats": {
       "Bubbles": 4500,
-      "Seashells": 2250,
-      "Gems": 95
+      "Gems": 95,
+      "Coins": 2250
     },
     "Rarity": "Secret",
     "Images": {
@@ -4139,13 +6097,13 @@
       "MythicShiny": "rbxassetid://127028300416726",
       "Shiny": "rbxassetid://79711609777243"
     },
-    "Chance": 0.000001,
-    "Egg": "Fossil Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.000001,
+    "LayoutOrder": 258
   },
   "Neon Wyvern": {
-    "LayoutOrder": 198,
+    "Egg": "Neon Egg",
     "Stats": {
       "Bubbles": 675,
       "Gems": 16,
@@ -4158,27 +6116,30 @@
       "MythicShiny": "rbxassetid://76051322922529",
       "Shiny": "rbxassetid://95554361638867"
     },
+    "Tier": 1,
     "Chance": 0.05,
-    "Egg": "Neon Egg",
-    "Tier": 1
+    "LayoutOrder": 198
   },
-  "Martian Kitty": {
-    "LayoutOrder": 155,
+  "Tole Cat": {
     "Stats": {
-      "Bubbles": 115,
-      "Gems": 2.5,
-      "Tickets": 125
+      "Bubbles": 1300,
+      "Gems": 26,
+      "Coins": 650
     },
-    "Rarity": "Unique",
+    "Rarity": "Legendary",
     "Images": {
-      "Normal": "rbxassetid://95865916555707",
-      "Shiny": "rbxassetid://128126875255924"
+      "Normal": "rbxassetid://121705945488863",
+      "Mythic": "rbxassetid://92830527062101",
+      "MythicShiny": "rbxassetid://140308761986912",
+      "Shiny": "rbxassetid://100500994155875"
     },
-    "Chance": 30,
-    "Egg": "Cyber Egg"
+    "Limited": true,
+    "Chance": 100,
+    "LayoutOrder": 326,
+    "Tag": "Exclusive Pet"
   },
   "Robo Kitty": {
-    "LayoutOrder": 154,
+    "Egg": "Cyber Egg",
     "Stats": {
       "Bubbles": 65,
       "Gems": 1.8,
@@ -4190,10 +6151,10 @@
       "Shiny": "rbxassetid://126245004235143"
     },
     "Chance": 64,
-    "Egg": "Cyber Egg"
+    "LayoutOrder": 154
   },
   "Dementor": {
-    "LayoutOrder": 126,
+    "Egg": "Throwback Egg",
     "Stats": {
       "Bubbles": 3750,
       "Gems": 85,
@@ -4206,13 +6167,13 @@
       "MythicShiny": "rbxassetid://126118689750116",
       "Shiny": "rbxassetid://70395978006731"
     },
-    "Chance": 1e-7,
-    "Egg": "Throwback Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 1e-7,
+    "LayoutOrder": 126
   },
   "Queen of Hearts": {
-    "LayoutOrder": 147,
+    "Egg": "Showman Egg",
     "Stats": {
       "Bubbles": 2,
       "Tickets": 2
@@ -4223,10 +6184,10 @@
       "Shiny": "rbxassetid://130641327270296"
     },
     "Chance": 5,
-    "Egg": "Showman Egg"
+    "LayoutOrder": 147
   },
   "Starlight": {
-    "LayoutOrder": 143,
+    "Egg": "Series 1 Egg",
     "Stats": {
       "Bubbles": 1700,
       "Gems": 25,
@@ -4242,11 +6203,11 @@
     "Limited": true,
     "Tier": 2,
     "Chance": 0.01,
-    "Egg": "Series 1 Egg",
+    "LayoutOrder": 143,
     "Tag": "Series 1"
   },
   "Dualcorn": {
-    "LayoutOrder": 123,
+    "Egg": "Throwback Egg",
     "Stats": {
       "Bubbles": 1200,
       "Gems": 21,
@@ -4259,13 +6220,13 @@
       "MythicShiny": "rbxassetid://85766838746496",
       "Shiny": "rbxassetid://93628728332738"
     },
-    "Chance": 0.002,
-    "Egg": "Throwback Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.002,
+    "LayoutOrder": 123
   },
   "Golden Dragon": {
-    "LayoutOrder": 129,
+    "Egg": "100M Egg",
     "Stats": {
       "Bubbles": 125,
       "Coins": 140
@@ -4275,12 +6236,12 @@
       "Normal": "rbxassetid://116610852449123",
       "Shiny": "rbxassetid://129336435638666"
     },
-    "Chance": 3,
     "Limited": true,
-    "Egg": "100M Egg"
+    "Chance": 3,
+    "LayoutOrder": 129
   },
   "Holy Egg": {
-    "LayoutOrder": 124,
+    "Egg": "Throwback Egg",
     "Stats": {
       "Bubbles": 1425,
       "Gems": 28,
@@ -4293,13 +6254,13 @@
       "MythicShiny": "rbxassetid://94212506544352",
       "Shiny": "rbxassetid://96405481047772"
     },
-    "Chance": 0.0002,
-    "Egg": "Throwback Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.0002,
+    "LayoutOrder": 124
   },
   "Easter Serpent": {
-    "LayoutOrder": 122,
+    "Egg": "Throwback Egg",
     "Stats": {
       "Bubbles": 550,
       "Gems": 10,
@@ -4312,13 +6273,12 @@
       "MythicShiny": "rbxassetid://114527045780663",
       "Shiny": "rbxassetid://125443598339397"
     },
-    "Chance": 0.04,
-    "Egg": "Throwback Egg",
     "Limited": true,
-    "Tier": 1
+    "Tier": 1,
+    "Chance": 0.04,
+    "LayoutOrder": 122
   },
   "Sunburst": {
-    "LayoutOrder": 98,
     "Stats": {
       "Bubbles": 1300,
       "Gems": 22,
@@ -4332,10 +6292,10 @@
       "Shiny": "rbxassetid://88775068999267"
     },
     "Chance": 0.02,
+    "LayoutOrder": 98,
     "Tag": "Mystery Box"
   },
   "Moonburst": {
-    "LayoutOrder": 97,
     "Stats": {
       "Bubbles": 1250,
       "Gems": 20,
@@ -4349,10 +6309,10 @@
       "Shiny": "rbxassetid://92936268760576"
     },
     "Chance": 0.01,
+    "LayoutOrder": 97,
     "Tag": "Mystery Box"
   },
   "Hacker Prism": {
-    "LayoutOrder": 96,
     "Stats": {
       "Bubbles": 1450,
       "Gems": 22,
@@ -4366,10 +6326,11 @@
       "Shiny": "rbxassetid://107346758048276"
     },
     "Chance": 0.025,
+    "LayoutOrder": 96,
     "Tag": "Rift Chest"
   },
   "Game Master": {
-    "LayoutOrder": 174,
+    "Egg": "Game Egg",
     "Stats": {
       "Bubbles": 1850,
       "Gems": 35,
@@ -4382,31 +6343,32 @@
       "MythicShiny": "rbxassetid://136491378615234",
       "Shiny": "rbxassetid://126718995367861"
     },
-    "Chance": 0.001,
-    "Egg": "Game Egg",
     "Limited": true,
-    "Tier": 3
+    "Tier": 3,
+    "Chance": 0.001,
+    "LayoutOrder": 174
   },
-  "Avernus": {
-    "LayoutOrder": 84,
+  "Eternal Star": {
+    "Egg": "500M Egg",
     "Stats": {
-      "Bubbles": 1900,
-      "Gems": 35,
-      "Coins": 2600
+      "Bubbles": 5500,
+      "Gems": 116,
+      "Coins": 4650
     },
     "Rarity": "Secret",
     "Images": {
-      "Normal": "rbxassetid://101820906833807",
-      "Mythic": "rbxassetid://113077553823335",
-      "MythicShiny": "rbxassetid://105994587891116",
-      "Shiny": "rbxassetid://121235836455795"
+      "Normal": "rbxassetid://92140659456586",
+      "Mythic": "rbxassetid://85606524042104",
+      "MythicShiny": "rbxassetid://108720627115650",
+      "Shiny": "rbxassetid://136346337749695"
     },
-    "Chance": 100,
     "Limited": true,
-    "Tag": "Season 1"
+    "Tier": 3,
+    "Chance": 5e-7,
+    "LayoutOrder": 369
   },
   "Space Invader": {
-    "LayoutOrder": 158,
+    "Egg": "Cyber Egg",
     "Stats": {
       "Bubbles": 1325,
       "Gems": 23,
@@ -4419,12 +6381,12 @@
       "MythicShiny": "rbxassetid://79347814813084",
       "Shiny": "rbxassetid://96247663419252"
     },
+    "Tier": 3,
     "Chance": 0.002,
-    "Egg": "Cyber Egg",
-    "Tier": 3
+    "LayoutOrder": 158
   },
   "The Overlord": {
-    "LayoutOrder": 60,
+    "Egg": "Nightmare Egg",
     "Stats": {
       "Bubbles": 2100,
       "Gems": 40,
@@ -4437,12 +6399,12 @@
       "MythicShiny": "rbxassetid://112536702440306",
       "Shiny": "rbxassetid://116109471846939"
     },
+    "Tier": 3,
     "Chance": 0.000002,
-    "Egg": "Nightmare Egg",
-    "Tier": 3
+    "LayoutOrder": 60
   },
   "Demonic Hydra": {
-    "LayoutOrder": 59,
+    "Egg": "Nightmare Egg",
     "Stats": {
       "Bubbles": 925,
       "Gems": 15,
@@ -4455,12 +6417,11 @@
       "MythicShiny": "rbxassetid://85260875883743",
       "Shiny": "rbxassetid://121831852984011"
     },
+    "Tier": 3,
     "Chance": 0.001,
-    "Egg": "Nightmare Egg",
-    "Tier": 3
+    "LayoutOrder": 59
   },
   "Discord Imp": {
-    "LayoutOrder": 85,
     "Stats": {
       "Bubbles": 25,
       "Gems": 2,
@@ -4472,10 +6433,11 @@
       "Shiny": "rbxassetid://121883751295408"
     },
     "Chance": 100,
+    "LayoutOrder": 85,
     "Tag": "Reward Pet"
   },
   "Inferno Demon": {
-    "LayoutOrder": 51,
+    "Egg": "Hell Egg",
     "Stats": {
       "Bubbles": 135,
       "Coins": 135
@@ -4486,10 +6448,10 @@
       "Shiny": "rbxassetid://88056809847000"
     },
     "Chance": 2.25,
-    "Egg": "Hell Egg"
+    "LayoutOrder": 51
   },
   "Cute Deer": {
-    "LayoutOrder": 182,
+    "Egg": "200M Egg",
     "Stats": {
       "Bubbles": 65,
       "Coins": 75
@@ -4499,8 +6461,8 @@
       "Normal": "rbxassetid://105066898757192",
       "Shiny": "rbxassetid://73998537566687"
     },
-    "Chance": 65,
     "Limited": true,
-    "Egg": "200M Egg"
+    "Chance": 65,
+    "LayoutOrder": 182
   }
 }

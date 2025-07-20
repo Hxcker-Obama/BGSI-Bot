@@ -4,7 +4,17 @@ const path = require('path');
 const express = require('express');
 
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+    res.send('Bot is alive!');
+});
+
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
+
+const config = require('./config.json');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -18,7 +28,7 @@ const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('
 for (const file of commandFiles) {
     const filePath = path.join(commandsPath, file);
     const command = require(filePath);
-    
+
     if ('data' in command && 'execute' in command) {
         client.commands.set(command.data.name, command);
     } else {
@@ -29,14 +39,14 @@ for (const file of commandFiles) {
 // When the client is ready
 client.once(Events.ClientReady, async c => {
     console.log(`Ready! Logged in as ${c.user.tag}`);
-    
+
     // Register commands
     try {
         const commands = [];
         for (const [name, command] of client.commands) {
             commands.push(command.data.toJSON());
         }
-        
+
         await client.application.commands.set(commands);
         console.log('Successfully registered application commands.');
     } catch (error) {
@@ -60,21 +70,11 @@ client.on(Events.InteractionCreate, async interaction => {
     } catch (error) {
         console.error(error);
         await interaction.editReply({ 
-            content: 'There was an error while executing this command!', 
+            content: '❌ An Error Occured! This is not your fault, rather a back end issue.\n-# Alert @definitely.obama if you get this msg', 
             ephemeral: true 
         });
     }
 });
 
-// Health check endpoint
-app.get('/', (req, res) => {
-  res.status(200).send('OK');
-});
-
-// Start the HTTP server alongside your bot
-app.listen(PORT, () => {
-  console.log(`Health check server running on port ${PORT}`);
-});
-
 // Login
-client.login(process.env["TOKEN"]);
+client.login(config.token);
